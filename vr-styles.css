@@ -703,11 +703,11 @@ body .right-panel .rugby-world-cup-image {
 body .container .section h1, body .container .section h2, body .container-fluid .section h1, body .container-fluid .section h2 {
     text-align: center;
     width: 100%;
-    color: #BDD09F;
+    color: #000;
 }
 
 body .container .section p, body .container-fluid .section p {
-    color: #BDD09F;
+    color: #000;
 }
 
 body .container .section .title, body .container-fluid .section .title, body .no-banner-title.title {
