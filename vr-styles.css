@@ -644,12 +644,12 @@ body .container .section-bottom, body .container-fluid .section-bottom {
     padding-bottom: 40px;
 }
 
-body .container .section.vr-grey-bg, body .container-fluid .section.vr-grey-bg {
-    background-color: #efefef;
+body .container .section.vr-green-bg, body .container-fluid .section.vr-green-bg {
+    background-color: #BDD09F;
 }
 
-body .container .section.vr-grey-bg .title:before, body .container-fluid .section.vr-grey-bg .title:before {
-    border-top: 15px solid #efefef;
+body .container .section.vr-green-bg .title:before, body .container-fluid .section.vr-green-bg .title:before {
+    border-top: 15px solid #BDD09F;
 }
 
 body .container .section.vr-dark-bg, body .container-fluid .section.vr-dark-bg {
