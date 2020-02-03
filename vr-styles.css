@@ -644,32 +644,32 @@ body .container .section-bottom, body .container-fluid .section-bottom {
     padding-bottom: 40px;
 }
 
-body .container .section.spectate-grey-bg, body .container-fluid .section.spectate-grey-bg {
+body .container .section.vr-grey-bg, body .container-fluid .section.vr-grey-bg {
     background-color: #efefef;
 }
 
-body .container .section.spectate-grey-bg .title:before, body .container-fluid .section.spectate-grey-bg .title:before {
+body .container .section.vr-grey-bg .title:before, body .container-fluid .section.vr-grey-bg .title:before {
     border-top: 15px solid #efefef;
 }
 
-body .container .section.spectate-dark-bg, body .container-fluid .section.spectate-dark-bg {
+body .container .section.vr-dark-bg, body .container-fluid .section.vr-dark-bg {
     background-color: #BDD09F;
 }
 
-body .container .section.spectate-dark-bg h2, body .container-fluid .section.spectate-dark-bg h2 {
+body .container .section.vr-dark-bg h2, body .container-fluid .section.vr-dark-bg h2 {
     color: #fff;
 }
 
-body .container .section.spectate-dark-bg .tile .tile-title.my-tours, body .container-fluid .section.spectate-dark-bg .tile .tile-title.my-tours {
+body .container .section.vr-dark-bg .tile .tile-title.my-tours, body .container-fluid .section.vr-dark-bg .tile .tile-title.my-tours {
     color: #fff;
 }
 
-body .container .section.spectate-dark-bg .tile .tile-title.my-tours .tile-tag, body .container-fluid .section.spectate-dark-bg .tile .tile-title.my-tours .tile-tag {
+body .container .section.vr-dark-bg .tile .tile-title.my-tours .tile-tag, body .container-fluid .section.vr-dark-bg .tile .tile-title.my-tours .tile-tag {
     color: #fff;
     border-bottom: 2px solid #fff;
 }
 
-body .container .section.spectate-dark-bg .tile .tile-title.why-choose-us p, body .container-fluid .section.spectate-dark-bg .tile .tile-title.why-choose-us p {
+body .container .section.vr-dark-bg .tile .tile-title.why-choose-us p, body .container-fluid .section.vr-dark-bg .tile .tile-title.why-choose-us p {
     color: #fff;
 }
 
@@ -1864,8 +1864,8 @@ body .tile .tile-contents--wrapper {
     overflow: hidden;
 }
 
-/* Why Spectate */
-body .why-spectate-icon {
+/* Why vr */
+body .why-vr-icon {
     background-color: #fff;
     border-radius: 50%;
     width: 100px;
@@ -1876,7 +1876,7 @@ body .why-spectate-icon {
     margin-bottom: 15px;
 }
 
-body .why-spectate-icon img {
+body .why-vr-icon img {
     width: 75px;
     height: 75px;
     margin: 0 auto;
@@ -2303,11 +2303,11 @@ body .modal-dialog.who-we-are .modal-footer {
         margin-left: 0;
     }
 
-    body .why-spectate > div {
+    body .why-vr > div {
         margin-bottom: 40px;
     }
 
-    body .why-spectate > div:last-child {
+    body .why-vr > div:last-child {
         margin-bottom: 0;
     }
 
@@ -2503,7 +2503,7 @@ body .modal-dialog.who-we-are .modal-footer {
         height: 100%;
     }
 
-    body.ipad .why-spectate .button.banner-button {
+    body.ipad .why-vr .button.banner-button {
         margin-top: 24px;
         display: inline-block;
     }
