@@ -579,7 +579,7 @@ body .banner-image .social-shares a {
 /* Container */
 body .container, body .container-fluid {
     font-size: 16px;
-    color: #BDD09F;
+    color: #000;
 }
 
 body .container .section a, body .container-fluid .section a {
