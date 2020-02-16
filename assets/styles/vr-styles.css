@@ -1,52 +1,8 @@
 ﻿@charset "UTF-8";
 
 /* Font Classes */
-.Gilroy-Regular {
-    font-family: Gilroy-Regular;
-    font-weight: normal;
-    font-style: normal;
-}
-
-.Gilroy-RegularItalic {
-    font-family: Gilroy-RegularItalic;
-    font-weight: normal;
-    font-style: normal;
-}
-
-.Gilroy-MediumItalic {
-    font-family: Gilroy-MediumItalic;
-    font-weight: normal;
-    font-style: normal;
-}
-
-.Gilroy-Medium {
-    font-family: Gilroy-Medium;
-    font-weight: normal;
-    font-style: normal;
-}
-
-.Gilroy-LightItalic {
-    font-family: Gilroy-LightItalic;
-    font-weight: normal;
-    font-style: normal;
-}
-
-.Gilroy-Light {
-    font-family: Gilroy-Light;
-    font-weight: normal;
-    font-style: normal;
-}
-
-.Kuunari-MediumCondensedItalic {
-    font-family: Kuunari-MediumCondensedItalic;
-    font-weight: normal;
-    font-style: normal;
-}
-
-.Kuunari-MediumCondensed {
-    font-family: Kuunari-MediumCondensed;
-    font-weight: normal;
-    font-style: normal;
+body .brand-font {
+    font-family: 'Playfair Display', serif;
 }
 
 .terms {
@@ -265,13 +221,16 @@ body nav.navbar .navbar-nav .dropdown-toggle:after {
 body nav.navbar .navbar-nav li {
     display: inline-block;
     padding: 13px 15px 10px 15px;
-    border-bottom: 4px solid #BDD09F;
     float: none;
 }
 
 body nav.navbar .navbar-nav li:hover {
-    border-bottom: 4px solid #563232;
+    background-color: #563232;
     cursor: pointer;
+}
+
+body nav.navbar .navbar-nav li:hover a {
+    color: #fff;
 }
 
 body nav.navbar .navbar-nav li a {
@@ -505,7 +464,7 @@ body .container-fluid .section .button {
 
 body .button:hover {
     cursor: pointer;
-    background-color: #BB2951;
+    background-color: #3E2121;
     color: #fff;
 }
 
