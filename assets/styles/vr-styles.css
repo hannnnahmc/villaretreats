@@ -32,6 +32,10 @@ body h3 {
     font-size: 24px;
 }
 
+body .container.container-margin-top {
+    margin-top: 120px;
+}
+
 body .container .section .copy h2,
 body .container-fluid .section .copy h2 {
     text-align: left;
@@ -175,6 +179,7 @@ body nav.navbar {
     background-color: #F0F0F0;
     padding: 0 40px;
     position: fixed;
+    top: 0;
     width: 100%;
     z-index: 100;
     border-radius: 0;
