@@ -1821,16 +1821,21 @@ body .container .looking-for {
     padding: 10px 0;
 }
 
+.accommodation-info i {
+    border-left: 2px solid #fff;
+    padding: 5px 0;
+}
+
 .accommodation-info .info-title {
     display: inline-block;
     margin-left: 10px;
     font-size: 24px;
     padding: 5px 0;
-    border-left: 2px solid #fff;
+    
 }
 
-.vr-green-bg > div:first-child .accommodation-info .info-title {
-    border-left: 2px solid #fff;
+.vr-green-bg > div:first-child .accommodation-info i {
+    border-left: none;
 }
 
 @media all and (transform-3d), (-webkit-transform-3d) {
