@@ -1816,6 +1816,10 @@ body .container .looking-for {
     list-style: none;
 }
 
+.features-list i {
+    color: #816C5B;
+}
+
 /* Green Villa Section */
 .accommodation-info {
     margin: 10px 0;
