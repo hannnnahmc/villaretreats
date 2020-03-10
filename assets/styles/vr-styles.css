@@ -316,7 +316,7 @@ body nav.navbar .nav-item .mega-menu .row {
 /* Banner */
 body .banner-image {
     position: relative;
-    height: 750px;
+    height: 650px;
 }
 
 body .banner-image .slide {
@@ -614,6 +614,10 @@ body .container .section.vr-green-bg, body .container-fluid .section.vr-green-bg
 
 body .container .section.vr-green-bg .title:before, body .container-fluid .section.vr-green-bg .title:before {
     border-top: 15px solid #BDD09F;
+}
+
+body .container .section.vr-grey-bg, body .container-fluid .section.vr-grey-bg {
+    background-color: #F0F0F0;
 }
 
 body .container .section.vr-dark-bg, body .container-fluid .section.vr-dark-bg {
