@@ -1818,12 +1818,12 @@ body .container .looking-for {
 
 /* Green Villa Section */
 .accommodation-info {
-    padding: 10px 0;
+    margin: 10px 0;
     text-align: center;
+    border-left: 2px solid #fff
 }
 
 .accommodation-info i {
-    border-left: 2px solid #fff;
     padding: 5px 0;
     font-size: 24px;
     vertical-align: baseline;
