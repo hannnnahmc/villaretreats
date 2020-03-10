@@ -608,11 +608,11 @@ body .container .section-bottom, body .container-fluid .section-bottom {
     padding-bottom: 40px;
 }
 
-body .container .section.vr-green-bg, body .container-fluid .section.vr-green-bg {
+body .container .vr-green-bg, body .container-fluid .vr-green-bg {
     background-color: #BDD09F;
 }
 
-body .container .section.vr-green-bg .title:before, body .container-fluid .section.vr-green-bg .title:before {
+body .container .vr-green-bg .title:before, body .container-fluid .vr-green-bg .title:before {
     border-top: 15px solid #BDD09F;
 }
 
@@ -1687,69 +1687,6 @@ body footer .container .section .subscribe {
     color: #563232;
 }
 
-/* CTA Bar */
-body .floating-cta {
-    position: fixed;
-    right: 0;
-    top: 50%;
-    transform: translate(0, -50%);
-    background-color: #563232;
-    z-index: 1;
-}
-
-body .floating-cta .cta {
-    font-size: 22px;
-    padding: 10px;
-    display: block;
-    text-align: center;
-}
-
-body .floating-cta .cta i {
-    color: #fff;
-}
-
-body .floating-cta .resp-sharing-button--facebook,
-body .social-shares .resp-sharing-button--facebook{
-    background-color: #3b5998;
-    border-color: #3b5998;
-}
-
-body .floating-cta .resp-sharing-button--facebook:hover,
-body .floating-cta .resp-sharing-button--facebook:active,
-body .social-shares .resp-sharing-button--facebook:hover,
-body .social-shares .resp-sharing-button--facebook:active{
-    background-color: #2d4373;
-    border-color: #2d4373;
-}
-
-body .floating-cta .resp-sharing-button--twitter,
-body .social-shares .resp-sharing-button--twitter{
-    background-color: #55acee;
-    border-color: #55acee;
-}
-
-body .floating-cta .resp-sharing-button--twitter:hover,
-body .floating-cta .resp-sharing-button--twitter:active,
-body .social-shares .resp-sharing-button--twitter:hover,
-body .social-shares .resp-sharing-button--twitter:active{
-    background-color: #2795e9;
-    border-color: #2795e9;
-}
-
-/* Facebook and Twitter Buttons */
-/* Non solid icons get a stroke */
-.resp-sharing-button__icon {
-    stroke: #fff;
-    fill: none
-}
-
-/* Solid icons get a fill */
-.resp-sharing-button__icon--solid,
-.resp-sharing-button__icon--solidcircle {
-    fill: #fff;
-    stroke: none
-}
-
 /* multi-carousel */
 body .owl-carousel .owl-nav {
     position: absolute;
@@ -1832,235 +1769,6 @@ body .tile .tile-contents--wrapper {
     overflow: hidden;
 }
 
-/* Why vr */
-body .why-vr-icon {
-    background-color: #fff;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    margin-bottom: 15px;
-}
-
-body .why-vr-icon img {
-    width: 75px;
-    height: 75px;
-    margin: 0 auto;
-    display: block;
-}
-
-/* Contact Us Methods */
-body .container .section .contact-us--wrapper {
-    background-color: #efefef;
-    text-align: center;
-    padding: 40px;
-    min-height: 320px;
-    border-radius: 5px;
-}
-
-body .container .section .contact-us--wrapper > i {
-    color: #563232;
-    font-size: 32px;
-    margin-bottom: 24px;
-}
-
-body .container .section .contact-us--wrapper .button {
-    position: absolute;
-    bottom: 40px;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-/* YouTube Modal */
-body .yt.show .modal-content {
-    border: none;
-    background-color: transparent;
-}
-
-body .yt.show .modal-body {
-    padding: 0;
-}
-
-body .yt.show .close i {
-    color: #fff;
-    padding: 10px 0;
-}
-
-/* Brochure Panel */
-body .container .section.brochure-panel--wrapper a {
-    margin-top: 14px;
-    display: inline-block;
-}
-
-body .container .section.brochure-panel--wrapper .brochure-info {
-    display: flex;
-    align-items: center;
-}
-
-/* Blog Banner with Author */
-body .no-banner-title,
-body .banner-image {
-    position: relative;
-}
-
-body .no-banner-title .blog-information {
-    position: absolute;
-    right: 40px;
-    top: 40px;
-}
-
-body .banner-image .blog-information {
-    position: absolute;
-    right: 15px;
-    bottom: 0;
-}
-
-body .no-banner-title .blog-information .author-image,
-body .banner-image .blog-information .author-image {
-    width: 75px;
-    height: 75px;
-    border-radius: 50%;
-    display: inline-block;
-}
-
-body .banner-image .blog-information .author-image {
-    margin-top: 0;
-}
-
-body .no-banner-title .blog-information .author--wrapper,
-body .banner-image .blog-information .author--wrapper {
-    display: inline-block;
-    color: #fff;
-    margin-left: 15px;
-    vertical-align: middle;
-}
-
-body .no-banner-title .blog-information .blog-date,
-body .banner-image .blog-information .blog-date {
-    color: #fff;
-    margin-top: 20px;
-    text-align: right;
-}
-
-/* Brochure Cover Image */
-body .brochure-cover, body .brochure-image {
-    width: 53%;
-    display: block;
-    margin: 0 auto;
-}
-
-body .brochure-image {
-    width: 100%;
-}
-
-/* Timeline */
-body .container-fluid .row .timeline {
-    position: relative;
-}
-
-body .container-fluid .row .timeline:before {
-    content: "";
-    background: #BDD09F;
-    width: 2px;
-    height: 100%;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-body .container-fluid .row .timeline-item {
-    width: 100%;
-}
-
-body .container-fluid .row .timeline-item .timeline-content.js--fadeInRight {
-    float: right;
-}
-
-body .container-fluid .row .timeline-item h2 {
-    text-align: left;
-    font-family: Kuunari-MediumCondensed;
-}
-
-body .container-fluid .row .timeline-item p {
-    margin-bottom: 0;
-}
-
-body .container-fluid .row .timeline-item .timeline-img {
-    width: 20px;
-    height: 20px;
-    background-color: #fff;
-    border: 4px solid #563232;
-    border-radius: 50%;
-    position: absolute;
-    left: 50%;
-    margin-top: 30px;
-    margin-left: -10px;
-}
-
-body .container-fluid .row .timeline-content:after {
-    content: "";
-    position: absolute;
-    border-style: solid;
-    width: 0;
-    height: 0;
-    top: 39px;
-    right: -46px;
-    border-width: 0px 0px 2px 25px;
-    border-color: #BDD09F;
-}
-
-body .container-fluid .row .timeline-item .timeline-content.js--fadeInRight:after {
-    left: -49px;
-}
-
-body .container-fluid .row .timeline-item::after {
-    content: "";
-    display: block;
-    clear: both;
-}
-
-body .container-fluid .row .timeline-content {
-    position: relative;
-    width: 45%;
-    padding: 40px;
-    background: #efefef;
-    border-left: 4px solid #563232;
-}
-
-body .container-fluid .row .date {
-    color: #ff4081;
-    font-family: Gilroy-Medium;
-    display: inline-block;
-}
-
-body .container-fluid .row .timeline-item img.company-logo {
-    float: right;
-}
-
-body .container-fluid .row .small-item .timeline-content {
-    padding: 0 0 40px 0;
-    background: transparent;
-    border-left: none;
-}
-
-body .container-fluid .row .small-item .timeline-content.js--fadeInLeft {
-    text-align: right;
-}
-
-body .container-fluid .row .small-item .timeline-content:after {
-    content: none;
-}
-
-body .container-fluid .row .small-item .date {
-    color: #BDD09F;
-}
-
-body .container-fluid .row .timeline-item:last-child .timeline-content {
-    padding: 0;
-}
-
 /* Error Page */
 body .error-message--wrapper {
     position: relative;
@@ -2097,39 +1805,15 @@ body .error-message .button:hover {
     text-decoration: none;
 }
 
-/* Other Sports */
-body .container .other-sports--wrapper .col-12 p:last-child {
-    margin-bottom: 0;
-}
-
-body .container .section-bottom .other-sports-image {
-    height: 100%;
-}
-
 /* About Us - Looking For Panel */
 body .container .looking-for {
     background-color: #efefef;
     padding: 40px;
 }
 
-/* Who We Are - Modal */
-body .modal.show .modal-dialog.who-we-are {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-body .modal-dialog.who-we-are .modal-header {
-    border-bottom: none;
-}
-
-body .modal-dialog.who-we-are .modal-footer {
-    border-top: none;
-}
-
-.grecaptcha-badge {
-    visibility: hidden;
+/* Features List */
+.features-list li {
+    list-style: none;
 }
 
 @media all and (transform-3d), (-webkit-transform-3d) {
