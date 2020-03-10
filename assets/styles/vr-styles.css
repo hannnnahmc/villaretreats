@@ -1837,7 +1837,7 @@ body .container .looking-for {
     
 }
 
-.vr-green-bg > div:first-child .accommodation-info i {
+.vr-green-bg > div:first-child .accommodation-info {
     border-left: none;
 }
 
