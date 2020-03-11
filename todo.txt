@@ -1,0 +1,28 @@
+Whole Website
+- Check mobile responsiveness
+- Look at image resolutions and compress
+- Needs text (work w/ Stanley)
+- Get Rich to overlook it and suggest changes before Go Live
+- Domain name needed
+
+Villa Page
+- Design and build "Things to do"
+
+Huts Page
+- DONE - Add all items
+- DONE - Secondary button css (green w/ brown text)
+
+Hut Pages
+- Change text and images
+- Images needed (use test ones from hut for now)
+
+Bungalow Page
+- Change text and images
+- Images needed
+
+About us
+- Create using ITC as example
+- Find free mapping software
+- A paragraph about how this was transformed into villa and where huts are built (as local)
+
+Set up social media
