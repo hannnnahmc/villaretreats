@@ -1374,8 +1374,8 @@ body .button.skip-to-content {
 }
 
 body .button.button--secondary {
-    border: 2px solid #563232;
-    background-color: #fff;
+    border: 2px solid #BDD09F;
+    background-color: #BDD09F;
     color: #563232;
     padding: 8px 15px;
 }
