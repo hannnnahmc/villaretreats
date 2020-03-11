@@ -465,6 +465,7 @@ body .container-fluid .section .button {
     color: #fff;
     padding: 10px 10px;
     border-radius: 5px;
+    display: inline-block;
 }
 
 body .button:hover {
