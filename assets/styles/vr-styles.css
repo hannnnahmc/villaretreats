@@ -585,7 +585,7 @@ body footer .container .section a, body footer .container-fluid .section a {
 }
 
 body .container .section, body .container-fluid .section {
-    padding: 40px 0;
+    padding: 60px 0;
 }
 
 body .container .section-top, body .container-fluid .section-top {
@@ -657,13 +657,23 @@ body .right-panel .rugby-world-cup-image {
 }
 
 body .container .section h1, body .container .section h2, body .container-fluid .section h1, body .container-fluid .section h2 {
-    text-align: center;
+    text-align: left;
     width: 100%;
-    color: #000;
+    color: #666;
+    margin-bottom: 58px;
+}
+
+body .container .section h2:before {
+    content: "";
+    position: absolute;
+    width: 80px;
+    top: 42px;
+    left: 15px;
+    border-bottom: 4px solid #BDD09F;
 }
 
 body .container .section p, body .container-fluid .section p {
-    color: #000;
+    color: #666;
 }
 
 body .container .section .title, body .container-fluid .section .title, body .no-banner-title.title {
