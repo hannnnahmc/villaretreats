@@ -176,9 +176,8 @@ body .line-highlight {
 
 /* Navbar */
 body nav.navbar {
-    background-color: #F0F0F0;
-    padding: 0 40px;
-    position: fixed;
+    padding: 0 60px;
+    position: absolute;
     top: 0;
     width: 100%;
     z-index: 100;
@@ -316,7 +315,7 @@ body nav.navbar .nav-item .mega-menu .row {
 /* Banner */
 body .banner-image {
     position: relative;
-    height: 650px;
+    height: 100vh;
 }
 
 body .banner-image .slide {
@@ -460,9 +459,9 @@ body .container .section .tickets-cta--wrapper .button, body .container-fluid .s
 body .button,
 body .container .section .button,
 body .container-fluid .section .button {
-    background-color: #563232;
-    border: none;
-    color: #fff;
+    background-color: #fff;
+    border: 2px solid #39B001;
+    color: #39B001;
     padding: 10px 10px;
     border-radius: 5px;
     display: inline-block;
