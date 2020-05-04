@@ -43,10 +43,10 @@
             if (i <= 2) {
                 carouselImgs[i].setAttribute("class", "active");
 
-                if (id == 0) {
+                if (i == 0) {
                     carouselImgs[i].setAttribute("class", "main").setAttribute("class", "col-6");
                 }
-                else if (id == 1 || id == 2) {
+                else if (i == 1 || i == 2) {
                     carouselImgs[i].setAttribute("class", "bg-to-main").setAttribute("class", "col-3");
                 }
             }
