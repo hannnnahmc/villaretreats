@@ -41,15 +41,15 @@
             idArr.push(id);
 
             if (i <= 2) {
-                if (i == 0) {
-                    carouselImgs[i].setAttribute("class", "active main col-6")
+                if (i == 1) {
+                    carouselImgs[i].setAttribute("class", "crsl-img active main col-6")
                 }
-                else if (i == 1 || i == 2) {
-                    carouselImgs[i].setAttribute("class", "active bg-to-main col-3");
+                else if (i == 0 || i == 2) {
+                    carouselImgs[i].setAttribute("class", "crsl-img active bg-to-main col-3");
                 }
             }
             else {
-                carouselImgs[i].setAttribute("class", "hidden");
+                carouselImgs[i].setAttribute("class", "crsl-img hidden");
             }
         }
     }
