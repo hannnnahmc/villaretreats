@@ -57,10 +57,10 @@
         carouselNext.click(function(){
             // get id of main active item
             var activeImgId = $('.image-carousel').find('.crsl-img.active.main').attr('id');
-            $('.image-carousel').find('.crsl-img#' + activeImgId).prev().setAttribute("class", "crsl-img hidden");
-            $('.image-carousel').find('.crsl-img#' + activeImgId).next().setAttribute("class", "crsl-img active main col-6");
-            $('.image-carousel').find('.crsl-img#' + activeImgId).next().next().setAttribute("class", "crsl-img active bg-to-main col-3");
-            $('.image-carousel').find('.crsl-img#' + activeImgId).setAttribute("class", "crsl-img active bg-to-main col-3");
+            $('.image-carousel').find('.crsl-img#' + activeImgId).prev().attr("class", "crsl-img hidden");
+            $('.image-carousel').find('.crsl-img#' + activeImgId).next().attr("class", "crsl-img active main col-6");
+            $('.image-carousel').find('.crsl-img#' + activeImgId).next().next().attr("class", "crsl-img active bg-to-main col-3");
+            $('.image-carousel').find('.crsl-img#' + activeImgId).attr("class", "crsl-img active bg-to-main col-3");
 
             //var oldBgImg = activeImgId - 1;
             //$('.image-carousel').find('.crsl-img.active.bg-to-main#' + oldBgImg).setAttribute("class", "crsl-img hidden");
