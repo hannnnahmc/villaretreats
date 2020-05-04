@@ -58,23 +58,20 @@
             // get id of main active item
             var activeImgId = $('.image-carousel').find('.crsl-img.active.main').attr('id');
             $('.image-carousel').find('.crsl-img#' + activeImgId).prev().attr("class", "crsl-img hidden");
-            $('.image-carousel').find('.crsl-img#' + activeImgId).next().attr("class", "crsl-img active main col-6");
-            $('.image-carousel').find('.crsl-img#' + activeImgId).next().next().attr("class", "crsl-img active bg-to-main col-3");
             $('.image-carousel').find('.crsl-img#' + activeImgId).attr("class", "crsl-img active bg-to-main col-3");
+            if ($('.image-carousel').find('.crsl-img#' + activeImgId).next().length != 0) {
+                $('.image-carousel').find('.crsl-img#' + activeImgId).next().attr("class", "crsl-img active main col-6");
+            }
+            else {
+                $('.image-carousel').prevAll('.crsl-img').last().attr("class", "crsl-img active bg-to-main col-3");
+            }
 
-            //var oldBgImg = activeImgId - 1;
-            //$('.image-carousel').find('.crsl-img.active.bg-to-main#' + oldBgImg).setAttribute("class", "crsl-img hidden");
-            // need solution for restart
-
-            // + 1 to get next main active item
-            //var nextImg = activeImgId + 1;
-            //$('.image-carousel').find('.crsl-img#' + nextImg).setAttribute("class", "crsl-img active main col-6");
-            // need solution for restart
-
-            // + 1 to get next bg-to-main active item
-            //var nextBgImg = nextImg + 1;
-            //$('.image-carousel').find('.crsl-img#' + nextBgImg).setAttribute("class", "crsl-img active bg-to-main col-3");
-            // need solution for restart
+            if ($('.image-carousel').find('.crsl-img#' + activeImgId).next().next().length != 0) {
+                $('.image-carousel').find('.crsl-img#' + activeImgId).next().next().attr("class", "crsl-img active bg-to-main col-3");
+            }
+            //else {
+                //$('.image-carousel').prevAll('.crsl-img').last().next();
+            //}
         });
     }
 });
