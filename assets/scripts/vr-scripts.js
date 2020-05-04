@@ -31,36 +31,30 @@
         $('body').addClass('ipad');
     }
 
-    $('.ticket-wrap').ready(function () {
-        var tickets = document.querySelector('.ticket-wrap');
-        if (tickets !== null) {
-            var ticketItems = tickets.querySelectorAll('.ticket-card');
-            var limit = 0;
-            for (var i = 0; i < ticketItems.length; i++) {
-                limit = limit + ticketItems[i].scrollHeight;
-                if (limit < 500) { ticketItems[i].setAttribute("style", "display:block"); } else { ticketItems[i].setAttribute("style", "display:none"); ticketItems[i].setAttribute("class", "hiddenTicket"); }
-            }
+    var carouselImg = document.querySelector('.image-carousel');
+    if (carouselImg !== null) {
+        var carouselImgs = carouselImg.querySelectorAll('.crsl-img');
+        var idArr = [];
+        for (var i = 0; i < carouselImgs.length; i++) {
+            var id = i + 1;
+            carouselImgs[i].setAttribute("id", id);
+            idArr.push(id);
 
-            for (var j = 0; j < ticketItems.length; j++) {
-                var isHidden = ticketItems[j].getAttribute('style');
-                if (isHidden === "display: none;" || isHidden === "display:none") { $('.view-tickets').show(); } else { $('.view-tickets').hide(); }
-            }
+            if (i <= 2) {
+                carouselImgs[i].setAttribute("class", "active");
 
-            $('.view-tickets').click(function () {
-                var count = false;
-                for (var k = 0; k < ticketItems.length; k++) {
-                    if (ticketItems[k].className === 'hiddenTicket') { if (ticketItems[k].getAttribute('style') !== '') { count = true; } else { count = false; } }
+                if (id == 0) {
+                    carouselImgs[i].setAttribute("class", "main").setAttribute("class", "col-6");
                 }
-                if (count) {
-                    $('.hiddenTicket').show();
-                    $('.view-tickets').text('View Less').append('<i class="far fa-angle-up">');
-                } else {
-                    $('.hiddenTicket').hide();
-                    $('.view-tickets').text('View More').append('<i class="far fa-angle-down">');
+                else if (id == 1 || id == 2) {
+                    carouselImgs[i].setAttribute("class", "bg-to-main").setAttribute("class", "col-3");
                 }
-            });
+            }
+            else {
+                carouselImgs[i].setAttribute("class", "hidden");
+            }
         }
-    });
+    }
 });
 
 function imageModal(src) {
