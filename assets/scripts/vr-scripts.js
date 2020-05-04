@@ -42,7 +42,7 @@
 
             if (i <= 2) {
                 if (i == 1) {
-                    carouselImgs[i].setAttribute("class", "crsl-img active main col-6")
+                    carouselImgs[i].setAttribute("class", "crsl-img active main col-6");
                 }
                 else if (i == 0 || i == 2) {
                     carouselImgs[i].setAttribute("class", "crsl-img active bg-to-main col-3");
@@ -52,6 +52,30 @@
                 carouselImgs[i].setAttribute("class", "crsl-img hidden");
             }
         }
+
+        var carouselNext = $('.image-carousel').parent().parent().find('.fa-arrow-right');
+        carouselNext.click(function(){
+            // get id of main active item
+            var activeImgId = $('.image-carousel').find('.crsl-img.active.main').attr('id');
+            $('.image-carousel').find('.crsl-img#' + activeImgId).prev().setAttribute("class", "crsl-img hidden");
+            $('.image-carousel').find('.crsl-img#' + activeImgId).next().setAttribute("class", "crsl-img active main col-6");
+            $('.image-carousel').find('.crsl-img#' + activeImgId).next().next().setAttribute("class", "crsl-img active bg-to-main col-3");
+            $('.image-carousel').find('.crsl-img#' + activeImgId).setAttribute("class", "crsl-img active bg-to-main col-3");
+
+            //var oldBgImg = activeImgId - 1;
+            //$('.image-carousel').find('.crsl-img.active.bg-to-main#' + oldBgImg).setAttribute("class", "crsl-img hidden");
+            // need solution for restart
+
+            // + 1 to get next main active item
+            //var nextImg = activeImgId + 1;
+            //$('.image-carousel').find('.crsl-img#' + nextImg).setAttribute("class", "crsl-img active main col-6");
+            // need solution for restart
+
+            // + 1 to get next bg-to-main active item
+            //var nextBgImg = nextImg + 1;
+            //$('.image-carousel').find('.crsl-img#' + nextBgImg).setAttribute("class", "crsl-img active bg-to-main col-3");
+            // need solution for restart
+        });
     }
 });
 
