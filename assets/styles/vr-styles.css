@@ -1483,6 +1483,7 @@ body .container .looking-for {
 .carousel-arrow i {
     cursor: pointer;
     color: #BDD09F;
+    font-size: 24px;
 }
 
 .carousel-arrow i:hover {
