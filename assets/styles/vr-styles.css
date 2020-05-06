@@ -1464,6 +1464,7 @@ body .container .looking-for {
 
 .image-carousel .crsl-img.bg-to-main {
     padding: 25px 0;
+    opacity: 0.6;
 }
 
 .image-carousel .crsl-img.main {
