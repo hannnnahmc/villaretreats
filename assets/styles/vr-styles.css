@@ -1458,8 +1458,34 @@ body .container .looking-for {
 }
 
 /* Carousel */
-.crsl-img.hidden {
+.image-carousel .crsl-img.hidden {
     display: none;
+}
+
+.image-carousel .crsl-img.bg-to-main {
+    padding: 25px 0;
+}
+
+.image-carousel .crsl-img.main {
+    height: 500px;
+}
+
+.carousel-arrow {
+    display: flex;
+    align-items: center;
+}
+
+.carousel-arrow.arrow-right {
+    justify-content: flex-end;
+}
+
+.carousel-arrow i {
+    cursor: pointer;
+    color: #BDD09F;
+}
+
+.carousel-arrow i:hover {
+    color: #39B001;
 }
 
 @media all and (transform-3d), (-webkit-transform-3d) {
