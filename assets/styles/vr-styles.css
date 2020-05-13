@@ -1250,6 +1250,9 @@ body footer .container .section form .button i {
 
 body footer .container .section .footer-social {
     font-size: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 body footer .container .section .footer-social .social-icons i {
