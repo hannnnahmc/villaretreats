@@ -1212,10 +1212,9 @@ body footer {
     border-top: 4px solid #BDD09F;
 }
 
-body footer img {
+body footer img.footer-image {
     width: auto;
-    display: block;
-    margin: 0 auto 10px auto;
+    display: inline-block;
 }
 
 body footer .container {
@@ -1279,19 +1278,9 @@ body footer .container .section .footer-links a:first-child {
     padding-left: 0;
 }
 
-body footer .container .section .itc-travel-group-link a {
-    font-family: Gilroy-Medium;
-    color: #fff;
-    font-size: 14px;
-}
-
-body footer .footer-bottom {
-    border-top: 4px solid #fff;
-    box-shadow: inset 0px 4px #563232;
-}
-
-body footer .container .section .subscribe {
-    color: #563232;
+body footer .container .section .footer-social .social-icons {
+    display: inline-block;
+    text-align: right;
 }
 
 /* multi-carousel */
