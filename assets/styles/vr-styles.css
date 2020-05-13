@@ -1209,7 +1209,7 @@ body i {
 }
 
 body footer {
-    background-color: #816C5B;
+    border-top: 4px solid #BDD09F;
 }
 
 body footer img {
@@ -1251,6 +1251,10 @@ body footer .container .section form .button i {
 
 body footer .container .section .footer-social {
     font-size: 28px;
+}
+
+body footer .container .section .footer-social .social-icons i {
+    color: #BDD09F;
 }
 
 body footer .container .section .footer-social p {
