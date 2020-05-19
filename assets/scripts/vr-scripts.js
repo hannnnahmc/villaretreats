@@ -93,7 +93,7 @@
             }
             else {
                 $('.image-carousel').find('.crsl-img').nextAll().last().attr("class", "crsl-img active bg-to-main col-3");
-                $('.image-carousel').find('.crsl-img').nextAll().last().appendTo('.image-carousel');
+                $('.image-carousel').find('.crsl-img').nextAll().last().prependTo('.image-carousel');
             }
         });
     }
