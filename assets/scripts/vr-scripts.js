@@ -31,20 +31,49 @@
         $('body').addClass('ipad');
     }
 
-    $('.image-carousel.owl-carousel').owlCarousel({
-        loop:false,
-        margin:10,
-        responsiveClass:true,
-        nav:true,
-        responsive:{
-            0:{
-                items:1
-            },
-            600:{
-                items:3
+    var carouselImg = document.querySelector('.image-carousel');
+    if (carouselImg !== null) {
+        var carouselImgs = carouselImg.querySelectorAll('.crsl-img');
+        var idArr = [];
+        for (var i = 0; i < carouselImgs.length; i++) {
+            var id = i + 1;
+            carouselImgs[i].setAttribute("id", id);
+            idArr.push(id);
+
+            if (i <= 2) {
+                if (i == 1) {
+                    carouselImgs[i].setAttribute("class", "crsl-img active main col-6");
+                }
+                else if (i == 0 || i == 2) {
+                    carouselImgs[i].setAttribute("class", "crsl-img active bg-to-main col-3");
+                }
+            }
+            else {
+                carouselImgs[i].setAttribute("class", "crsl-img hidden");
             }
         }
-    });
+
+        var carouselNext = $('.image-carousel').parent().parent().find('.fa-arrow-right');
+        carouselNext.click(function(){
+            // get id of main active item
+            var activeImgId = $('.image-carousel').find('.crsl-img.active.main').attr('id');
+            $('.image-carousel').find('.crsl-img#' + activeImgId).prev().attr("class", "crsl-img hidden");
+            $('.image-carousel').find('.crsl-img#' + activeImgId).attr("class", "crsl-img active bg-to-main col-3");
+            if ($('.image-carousel').find('.crsl-img#' + activeImgId).next().length != 0) {
+                $('.image-carousel').find('.crsl-img#' + activeImgId).next().attr("class", "crsl-img active main col-6");
+            }
+            else {
+                $('.image-carousel').find('.crsl-img').prevAll().last().attr("class", "crsl-img active main col-6");
+            }
+
+            if ($('.image-carousel').find('.crsl-img#' + activeImgId).next().next().length != 0) {
+                $('.image-carousel').find('.crsl-img#' + activeImgId).next().next().attr("class", "crsl-img active bg-to-main col-3");
+            }
+            else {
+                $('.image-carousel').find('.crsl-img').prevAll().last().attr("class", "crsl-img active bg-to-main col-3");
+            }
+        });
+    }
 });
 
 function imageModal(src) {
