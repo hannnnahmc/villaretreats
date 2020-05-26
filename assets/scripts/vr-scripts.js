@@ -32,6 +32,7 @@
     }
 
     var carouselImg = document.querySelector('.image-carousel');
+    var carouselText = document.querySelector('.text-carousel');
     if (carouselImg !== null) {
         var carouselImgs = carouselImg.querySelectorAll('.crsl-img');
         var idArr = [];
@@ -53,17 +54,35 @@
             }
         }
 
+        var carouselTexts = carouselText.querySelectorAll('.crsl-text');
+        var idTextArr = [];
+        for (var i = 0; i < carouselTexts.length; i++) {
+            var id = i + 1;
+            carouselTexts[i].setAttribute("id", id);
+            idTextArr.push(id);
+
+            if (i == 2) {
+                carouselTexts[i].setAttribute("class", "crsl-text active");
+            }
+            else {
+                carouselTexts[i].setAttribute("class", "crsl-text hidden");
+            }
+        }
+
         var carouselNext = $('.image-carousel').parent().parent().find('.fa-arrow-right');
         carouselNext.click(function(){
             // get id of main active item
             var activeImgId = $('.image-carousel').find('.crsl-img.active.main').attr('id');
             $('.image-carousel').find('.crsl-img#' + activeImgId).prev().attr("class", "crsl-img hidden");
             $('.image-carousel').find('.crsl-img#' + activeImgId).attr("class", "crsl-img active bg-to-main col-3");
+            $('.text-carousel').find('.crsl-text').attr('class', 'crsl-text hidden');
             if ($('.image-carousel').find('.crsl-img#' + activeImgId).next().length != 0) {
                 $('.image-carousel').find('.crsl-img#' + activeImgId).next().attr("class", "crsl-img active main col-6");
+                $('.text-carousel').find('.crsl-text#' + activeImgId).next().attr('class', 'crsl-text active');
             }
             else {
                 $('.image-carousel').find('.crsl-img').prevAll().last().attr("class", "crsl-img active main col-6");
+                $('.text-carousel').find('.crsl-text').prevAll().last().attr('class', 'crsl-text active');
             }
 
             if ($('.image-carousel').find('.crsl-img#' + activeImgId).next().next().length != 0) {
@@ -73,6 +92,7 @@
                 $('.image-carousel').find('.crsl-img').prevAll().last().attr("class", "crsl-img active bg-to-main col-3");
                 $('.image-carousel').find('.crsl-img').prevAll().last().appendTo('.image-carousel');
             }
+            
         });
 
         var carouselPrev = $('.image-carousel').parent().parent().find('.fa-arrow-left');
