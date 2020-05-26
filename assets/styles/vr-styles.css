@@ -675,6 +675,10 @@ body .container h2:before {
     border-bottom: 4px solid #BDD09F;
 }
 
+body .container .crsl-text h2:before {
+    left: 0;
+}
+
 body .container .section p, body .container-fluid .section p {
     color: #666;
 }
