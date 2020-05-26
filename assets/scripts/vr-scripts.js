@@ -74,23 +74,26 @@
             // get id of main active item
             var activeImgId = $('.image-carousel').find('.crsl-img.active.main').attr('id');
             $('.image-carousel').find('.crsl-img#' + activeImgId).prev().attr("class", "crsl-img hidden");
-            $('.image-carousel').find('.crsl-img#' + activeImgId).attr("class", "crsl-img active bg-to-main col-3");
+            $('.image-carousel').find('.crsl-img#' + activeImgId).attr("class", "crsl-img bg-to-main col-3");
+            $('.text-carousel').find('.crsl-text#' + activeImgId).attr('class', 'crsl-text hidden col-3');
             $('.text-carousel').find('.crsl-text').attr('class', 'crsl-text hidden');
             if ($('.image-carousel').find('.crsl-img#' + activeImgId).next().length != 0) {
                 $('.image-carousel').find('.crsl-img#' + activeImgId).next().attr("class", "crsl-img active main col-6");
-                $('.text-carousel').find('.crsl-text#' + activeImgId).next().attr('class', 'crsl-text active');
+                $('.text-carousel').find('.crsl-text#' + activeImgId).next().attr('class', 'crsl-text active col-6');
             }
             else {
                 $('.image-carousel').find('.crsl-img').prevAll().last().attr("class", "crsl-img active main col-6");
-                $('.text-carousel').find('.crsl-text').prevAll().last().attr('class', 'crsl-text active');
+                $('.text-carousel').find('.crsl-text').prevAll().last().attr('class', 'crsl-text active col-6');
             }
 
             if ($('.image-carousel').find('.crsl-img#' + activeImgId).next().next().length != 0) {
-                $('.image-carousel').find('.crsl-img#' + activeImgId).next().next().attr("class", "crsl-img active bg-to-main col-3");
+                $('.image-carousel').find('.crsl-img#' + activeImgId).next().next().attr("class", "crsl-img bg-to-main col-3");
+                $('.text-carousel').find('.crsl-text#' + activeImgId).next().next().attr('class', 'crsl-text hidden col-3');
             }
             else {
-                $('.image-carousel').find('.crsl-img').prevAll().last().attr("class", "crsl-img active bg-to-main col-3");
+                $('.image-carousel').find('.crsl-img').prevAll().last().attr("class", "crsl-img bg-to-main col-3");
                 $('.image-carousel').find('.crsl-img').prevAll().last().appendTo('.image-carousel');
+                $('.text-carousel').find('.crsl-text').prevAll().last().attr('class', 'crsl-text hidden col-3');
                 $('.text-carousel').find('.crsl-text').prevAll().last().appendTo('.text-carousel');
             }
             
