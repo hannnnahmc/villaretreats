@@ -76,7 +76,6 @@
             $('.image-carousel').find('.crsl-img#' + activeImgId).prev().attr("class", "crsl-img hidden");
             $('.image-carousel').find('.crsl-img#' + activeImgId).attr("class", "crsl-img bg-to-main col-3");
             $('.text-carousel').find('.crsl-text#' + activeImgId).attr('class', 'crsl-text hidden col-3');
-            $('.text-carousel').find('.crsl-text').attr('class', 'crsl-text hidden');
             if ($('.image-carousel').find('.crsl-img#' + activeImgId).next().length != 0) {
                 $('.image-carousel').find('.crsl-img#' + activeImgId).next().attr("class", "crsl-img active main col-6");
                 $('.text-carousel').find('.crsl-text#' + activeImgId).next().attr('class', 'crsl-text active col-6');
@@ -106,7 +105,6 @@
             $('.image-carousel').find('.crsl-img#' + activeImgId).next().attr("class", "crsl-img hidden");
             $('.image-carousel').find('.crsl-img#' + activeImgId).attr("class", "crsl-img active bg-to-main col-3");
             $('.text-carousel').find('.crsl-text#' + activeImgId).attr('class', 'crsl-text hidden col-3');
-            $('.text-carousel').find('.crsl-text').attr('class', 'crsl-text hidden');
             if ($('.image-carousel').find('.crsl-img#' + activeImgId).prev().length != 0) {
                 $('.image-carousel').find('.crsl-img#' + activeImgId).prev().attr("class", "crsl-img active main col-6");
                 $('.text-carousel').find('.crsl-text#' + activeImgId).prev().attr('class', 'crsl-text active col-6');
