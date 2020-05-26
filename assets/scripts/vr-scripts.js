@@ -61,7 +61,7 @@
             carouselTexts[i].setAttribute("id", id);
             idTextArr.push(id);
 
-            if (i == 2) {
+            if (i == 1) {
                 carouselTexts[i].setAttribute("class", "crsl-text active");
             }
             else {
@@ -83,6 +83,7 @@
             else {
                 $('.image-carousel').find('.crsl-img').prevAll().last().attr("class", "crsl-img active main col-6");
                 $('.text-carousel').find('.crsl-text').prevAll().last().attr('class', 'crsl-text active');
+                $('.text-carousel').find('.crsl-text').prevAll().last().appendTo('.text-carousel');
             }
 
             if ($('.image-carousel').find('.crsl-img#' + activeImgId).next().next().length != 0) {
