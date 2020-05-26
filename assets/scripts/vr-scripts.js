@@ -83,7 +83,6 @@
             else {
                 $('.image-carousel').find('.crsl-img').prevAll().last().attr("class", "crsl-img active main col-6");
                 $('.text-carousel').find('.crsl-text').prevAll().last().attr('class', 'crsl-text active');
-                $('.text-carousel').find('.crsl-text').prevAll().last().appendTo('.text-carousel');
             }
 
             if ($('.image-carousel').find('.crsl-img#' + activeImgId).next().next().length != 0) {
@@ -92,6 +91,7 @@
             else {
                 $('.image-carousel').find('.crsl-img').prevAll().last().attr("class", "crsl-img active bg-to-main col-3");
                 $('.image-carousel').find('.crsl-img').prevAll().last().appendTo('.image-carousel');
+                $('.text-carousel').find('.crsl-text').prevAll().last().appendTo('.text-carousel');
             }
             
         });
