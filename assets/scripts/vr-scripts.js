@@ -124,7 +124,7 @@
                 $('.image-carousel').find('.crsl-img').nextAll().last().attr("class", "crsl-img active bg-to-main col-3");
                 $('.image-carousel').find('.crsl-img').nextAll().last().prependTo('.image-carousel');
                 $('.text-carousel').find('.crsl-text').nextAll().last().attr('class', 'crsl-text hidden col-3');
-                $('.text-carousel').find('.crsl-text').nextAll().last().appendTo('.text-carousel');
+                $('.text-carousel').find('.crsl-text').nextAll().last().prependTo('.text-carousel');
             }
         });
     }
