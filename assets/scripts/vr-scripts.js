@@ -62,10 +62,10 @@
             idTextArr.push(id);
 
             if (i == 1) {
-                carouselTexts[i].setAttribute("class", "crsl-text active");
+                carouselTexts[i].setAttribute("class", "crsl-text active col-6");
             }
             else {
-                carouselTexts[i].setAttribute("class", "crsl-text hidden");
+                carouselTexts[i].setAttribute("class", "crsl-text hidden col-3");
             }
         }
 
