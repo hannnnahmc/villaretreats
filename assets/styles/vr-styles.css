@@ -468,8 +468,9 @@ body .container-fluid .section .button {
 
 body .button:hover {
     cursor: pointer;
-    background-color: #3E2121;
+    background-color: #39B001;
     color: #fff;
+    text-decoration: none;
 }
 
 /* Breadcrumbs */
@@ -675,11 +676,16 @@ body .container h2:before {
     border-bottom: 4px solid #BDD09F;
 }
 
+body .container .crsl-text h2 {
+    margin-bottom: 44px;
+}
+
 body .container .crsl-text h2:before {
     left: 0;
 }
 
-body .container .section p, body .container-fluid .section p {
+body .container .section p, body .container-fluid .section p,
+body .container p {
     color: #666;
 }
 
