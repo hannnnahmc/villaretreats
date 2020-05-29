@@ -229,8 +229,16 @@ body nav.navbar .navbar-nav li {
 }
 
 body nav.navbar .navbar-nav li:hover {
-    background-color: #563232;
     cursor: pointer;
+}
+
+body nav.navbar .navbar-nav li:hover a:before {
+    content: "";
+    position: absolute;
+    width: 50%;
+    top: 42px;
+    left: 0;
+    border-bottom: 4px solid #BDD09F;
 }
 
 body nav.navbar .navbar-nav li:hover a {
@@ -238,7 +246,7 @@ body nav.navbar .navbar-nav li:hover a {
 }
 
 body nav.navbar .navbar-nav li a {
-    color: #000;
+    color: #fff;
     font-size: 16px;
 }
 
