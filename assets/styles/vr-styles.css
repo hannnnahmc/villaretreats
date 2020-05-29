@@ -1475,6 +1475,10 @@ body .container .looking-for {
 }
 
 /* Carousel */
+.image-carousel {
+    margin-bottom: 40px;
+}
+
 .image-carousel .crsl-img.hidden {
     display: none;
 }
