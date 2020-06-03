@@ -333,7 +333,7 @@ body .banner-image .slide {
 
 body .banner-image .banner--wrapper {
     position: absolute;
-    bottom: 40px;
+    top: 50%;
     left: 40px;
     color: #fff;
     width: calc(100% - 80px);
@@ -342,6 +342,15 @@ body .banner-image .banner--wrapper {
 
 body .banner-image h1 {
     font-size: 72px;
+}
+
+body .banner-image h1:before {
+    content: "";
+    position: absolute;
+    width: 80px;
+    top: 42px;
+    margin: 0 auto;
+    border-bottom: 4px solid #BDD09F;
 }
 
 body .banner-image .sub-line, body .tickets-cta--wrapper .sub-line {
