@@ -1518,6 +1518,14 @@ body .container .looking-for {
     color: #39B001;
 }
 
+.text-carousel .crsl-text p {
+    margin-bottom: 40px;
+}
+
+.text-carousel .crsl-text.visibility-hidden p {
+    display: none;
+}
+
 /* Local Area */
 .local-area-wrapper {
     background-color: rgba(102,102,102, 0.05);
