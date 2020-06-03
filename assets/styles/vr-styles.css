@@ -674,7 +674,6 @@ body .container .section h1, body .container .section h2,
 body .container-fluid .section h1, body .container-fluid .section h2,
 body .container h1, body .container h2 {
     text-align: left;
-    width: 100%;
     color: #666;
     margin-bottom: 58px;
 }
@@ -1589,6 +1588,11 @@ body .container .looking-for {
 
 .image-gallery > div:hover > .image-overlay i:hover {
     cursor: pointer;
+}
+
+.photo-gallery-buttons {
+    display: inline-block;
+    float: right;
 }
 
 @media all and (transform-3d), (-webkit-transform-3d) {
