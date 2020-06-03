@@ -1568,7 +1568,7 @@ body .container .looking-for {
     display: none;
 }
 
-.image-gallery img:hover + .image-overlay {
+.image-gallery > div:hover > .image-overlay {
     display: block;
     position: absolute;
     top: 0;
@@ -1578,7 +1578,7 @@ body .container .looking-for {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.image-gallery img:hover + .image-overlay i {
+.image-gallery > div:hover > .image-overlay i {
     position: absolute;
     z-index: 1;
     top: 10px;
@@ -1587,7 +1587,7 @@ body .container .looking-for {
     color: #fff;
 }
 
-.image-gallery img:hover + .image-overlay i:hover {
+.image-gallery > div:hover > .image-overlay i:hover {
     cursor: pointer;
 }
 
