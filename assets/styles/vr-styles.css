@@ -232,12 +232,7 @@ body nav.navbar .navbar-nav li:hover {
     cursor: pointer;
 }
 
-body nav.navbar .navbar-nav li:hover a:before {
-    content: "";
-    position: absolute;
-    width: 50%;
-    top: 42px;
-    left: 0;
+body nav.navbar .navbar-nav li:hover a {
     border-bottom: 4px solid #BDD09F;
 }
 
