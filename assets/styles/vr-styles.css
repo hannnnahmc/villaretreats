@@ -1523,6 +1523,7 @@ body .container .looking-for {
     background-color: rgba(102,102,102, 0.05);
     padding: 40px;
     border-radius: 20px;
+    height: 100%;
 }
 
 .local-area-wrapper .circle-icon {
