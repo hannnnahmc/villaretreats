@@ -1230,10 +1230,6 @@ body .container .view-more i {
     margin-left: 10px;
 }
 
-body i {
-    vertical-align: middle;
-}
-
 body footer img.footer-logo {
     width: 220px;
     display: inline-block;
