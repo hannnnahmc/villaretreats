@@ -347,9 +347,10 @@ body .banner-image h1 {
 body .banner-image h1:before {
     content: "";
     position: absolute;
-    width: 80px;
-    top: 42px;
-    margin: 0 auto;
+    width: 125px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
     border-bottom: 4px solid #BDD09F;
 }
 
