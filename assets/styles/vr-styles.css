@@ -1564,7 +1564,12 @@ body .container .looking-for {
 }
 
 /* Image Enlarge Button */
+.image-overlay {
+    display: none;
+}
+
 .image-gallery img:hover + .image-overlay {
+    display: block;
     position: absolute;
     top: 0;
     bottom: 0;
