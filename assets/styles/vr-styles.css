@@ -1486,11 +1486,12 @@ body .container .looking-for {
     margin-bottom: 40px;
 }
 
-.image-carousel .crsl-img.hidden {
+.image-carousel .crsl-img.hidden,
+.text-carousel .crsl-text.hidden {
     display: none;
 }
 
-.text-carousel .crsl-text.hidden {
+.text-carousel .crsl-text.visibility-hidden {
     visibility: hidden;
 }
 
