@@ -1239,10 +1239,6 @@ body i {
     vertical-align: middle;
 }
 
-body footer {
-    border-top: 4px solid #BDD09F;
-}
-
 body footer img.footer-logo {
     width: 220px;
     display: inline-block;
@@ -1250,6 +1246,7 @@ body footer img.footer-logo {
 
 body footer .container {
     color: #fff;
+    border-top: 4px solid #BDD09F;
 }
 
 body footer .container .section .form-inline {
