@@ -68,7 +68,7 @@
                 carouselTexts[i].setAttribute("class", "crsl-text visibility-hidden col-3");
             }
             else {
-                carouselTexts[i].setAttribute("class", "crsl-text hidden col-3");
+                carouselTexts[i].setAttribute("class", "crsl-text hidden");
             }
         }
 
@@ -78,6 +78,7 @@
             var activeImgId = $('.image-carousel').find('.crsl-img.active.main').attr('id');
             $('.image-carousel').find('.crsl-img#' + activeImgId).prev().attr("class", "crsl-img hidden");
             $('.image-carousel').find('.crsl-img#' + activeImgId).attr("class", "crsl-img bg-to-main col-3");
+            $('.text-carousel').find('.crsl-text#' + activeImgId).prev().attr("class", "crsl-text hidden");
             $('.text-carousel').find('.crsl-text#' + activeImgId).attr('class', 'crsl-text visibility-hidden col-3');
             if ($('.image-carousel').find('.crsl-img#' + activeImgId).next().length != 0) {
                 $('.image-carousel').find('.crsl-img#' + activeImgId).next().attr("class", "crsl-img active main col-6");
@@ -107,6 +108,7 @@
             var activeImgId = $('.image-carousel').find('.crsl-img.active.main').attr('id');
             $('.image-carousel').find('.crsl-img#' + activeImgId).next().attr("class", "crsl-img hidden");
             $('.image-carousel').find('.crsl-img#' + activeImgId).attr("class", "crsl-img active bg-to-main col-3");
+            $('.text-carousel').find('.crsl-text#' + activeImgId).next().attr("class", "crsl-text hidden");
             $('.text-carousel').find('.crsl-text#' + activeImgId).attr('class', 'crsl-text visibility-hidden col-3');
             if ($('.image-carousel').find('.crsl-img#' + activeImgId).prev().length != 0) {
                 $('.image-carousel').find('.crsl-img#' + activeImgId).prev().attr("class", "crsl-img active main col-6");
