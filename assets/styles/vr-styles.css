@@ -1481,6 +1481,10 @@ body .container .looking-for {
     margin-bottom: 40px;
 }
 
+.text-carousel {
+    margin-bottom: 60px;
+}
+
 .image-carousel .crsl-img.hidden,
 .text-carousel .crsl-text.hidden {
     display: none;
