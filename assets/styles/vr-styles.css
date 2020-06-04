@@ -1613,8 +1613,11 @@ body .container .looking-for {
 
 .full-screen-gallery img.active {
     display: block;
-    width: 75%;
+    max-width: 75vw;
+    max-height: 100vh;
+    width: auto;
     margin: 0 auto;
+    padding-bottom: 50px;
 }
 
 .full-screen-gallery i.fa-times {
