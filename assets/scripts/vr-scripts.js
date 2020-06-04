@@ -160,4 +160,5 @@ function goToContent() {
 
 function enlargeImage() {
     var currId = $(this).attr('id');
+    console.log(currId);
 }
