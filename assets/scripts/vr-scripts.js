@@ -131,6 +131,21 @@
             }
         });
     }
+
+    var galleryCarousel = $('.image-gallery');
+    if (galleryCarousel != null) {
+        var galleryItems = galleryCarousel.find('div > img');
+        for (var i = 0; i < galleryItems.length; i++) {
+            var id = i + 1;
+            galleryItems[i].setAttribute("id", id);
+        }
+
+        var fullScreenImgs = $('.full-screen-gallery').find('img');
+        for (var h = 0; h < fullScreenImgs.length; h++) {
+            var imageId = h + 1;
+            fullScreenImgs[h].setAttribute("id", imageId);
+        }
+    }
 });
 
 function imageModal(src) {
@@ -144,15 +159,5 @@ function goToContent() {
 }
 
 function enlargeImage() {
-    var modal = document.getElementById("myModal");
-
-    var img = document.getElementById("myImg");
-    var modalImg = document.getElementById("img01");
-    var captionText = document.getElementById("caption");
-    
-    img.onclick = function(){
-        modal.style.display = "block";
-        modalImg.src = this.src;
-        captionText.innerHTML = this.alt;
-    }
+    var currId = $(this).attr('id');
 }
