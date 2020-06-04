@@ -1630,13 +1630,21 @@ body .container .looking-for {
     cursor: pointer;
 }
 
-.full-screen-gallery i.fa-arrow-left {
+.full-screen-gallery i.fa-arrow-left,
+.full-screen-gallery i.fa-arrow-right {
     position: fixed;
     z-index: 10;
     top: 50%;
-    left: 40px;
     font-size: 24px;
     color: #BDD09F;
+}
+
+.full-screen-gallery i.fa-arrow-left {
+    left: 40px;
+}
+
+.full-screen-gallery i.fa-arrow-right {
+    right: 40px;
 }
 
 .full-screen-gallery i.fa-arrow-left:hover,
