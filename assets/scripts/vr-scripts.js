@@ -170,4 +170,5 @@ function enlargeImage(imgClick) {
 
 function closeModal() {
     $('.full-screen-gallery').hide();
+    $('.full-screen-gallery').find('img.active').removeClass('active');
 }
