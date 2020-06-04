@@ -1515,6 +1515,7 @@ body .container .looking-for {
 
 .carousel-arrow i:hover {
     color: #39B001;
+    cursor: pointer;
 }
 
 .text-carousel .crsl-text p {
@@ -1626,6 +1627,21 @@ body .container .looking-for {
 }
 
 .full-screen-gallery i.fa-times:hover {
+    cursor: pointer;
+}
+
+.full-screen-gallery i.fa-arrow-left {
+    position: fixed;
+    z-index: 10;
+    top: 50%;
+    left: 40px;
+    font-size: 24px;
+    color: #BDD09F;
+}
+
+.full-screen-gallery i.fa-arrow-left:hover,
+.full-screen-gallery i.fa-arrow-right:hover {
+    color: #39B001;
     cursor: pointer;
 }
 
