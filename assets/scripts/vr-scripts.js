@@ -155,7 +155,7 @@ function imageModal(src) {
 }
 
 function enlargeImage() {
-    var currId = $(this).parent().prev().attr('id');
+    var currId = this.parent().prev().attr('id');
     console.log(currId);
 
     var allItems = $('.full-screen-gallery').find('img');
