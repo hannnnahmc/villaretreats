@@ -1616,6 +1616,19 @@ body .container .looking-for {
     margin: 0 auto;
 }
 
+.full-screen-gallery i.fa-times {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    color: #fff;
+    z-index: 10;
+}
+
+.full-screen-gallery i.fa-times:hover {
+    cursor: pointer;
+}
+
 @media all and (transform-3d), (-webkit-transform-3d) {
     body .multi-item-carousel .carousel-inner > .carousel-item {
         transition: 500ms ease-in-out left;

@@ -167,3 +167,7 @@ function enlargeImage(imgClick) {
 
     $('.full-screen-gallery').show();
 }
+
+function closeModal() {
+    $('.full-screen-gallery').hide();
+}
