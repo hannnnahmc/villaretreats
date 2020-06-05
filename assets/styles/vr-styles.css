@@ -148,7 +148,7 @@ body .trophy.icon-highlight-line:before {
 body .container .section .quote-highlight {
     display: block;
     padding: 15px;
-    background-color: #BDD09F;
+    background-color: #2ecc71;
     color: #fff;
     margin: 20px 0;
 }
@@ -233,7 +233,7 @@ body nav.navbar .navbar-nav li:hover {
 }
 
 body nav.navbar .navbar-nav li:hover a {
-    border-bottom: 4px solid #BDD09F;
+    border-bottom: 4px solid #2ecc71;
 }
 
 body nav.navbar .navbar-nav li:hover a {
@@ -346,7 +346,7 @@ body .banner-image h1:before {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    border-bottom: 4px solid #BDD09F;
+    border-bottom: 4px solid #2ecc71;
 }
 
 body .banner-image .sub-line, body .tickets-cta--wrapper .sub-line {
@@ -473,15 +473,15 @@ body .button,
 body .container .section .button,
 body .container-fluid .section .button {
     background-color: #fff;
-    border: 2px solid #39B001;
-    color: #39B001;
+    border: 2px solid #27ae60;
+    color: #27ae60;
     padding: 10px 25px;
     display: inline-block;
 }
 
 body .button:hover {
     cursor: pointer;
-    background-color: #39B001;
+    background-color: #27ae60;
     color: #fff;
     text-decoration: none;
 }
@@ -504,7 +504,7 @@ body .breadcrumbs .breadcrumb {
 body .breadcrumbs .breadcrumb a {
     background-color: #efefef;
     margin-bottom: 0;
-    color: #BDD09F;
+    color: #2ecc71;
     display: inline-block;
 }
 
@@ -585,7 +585,7 @@ body .container, body .container-fluid {
 }
 
 body .container .section a, body .container-fluid .section a {
-    color: #BDD09F;
+    color: #2ecc71;
     text-decoration: none;
 }
 
@@ -611,11 +611,11 @@ body .container .section-bottom, body .container-fluid .section-bottom {
 }
 
 body .container .vr-green-bg, body .container-fluid .vr-green-bg {
-    background-color: #BDD09F;
+    background-color: #2ecc71;
 }
 
 body .container .vr-green-bg .title:before, body .container-fluid .vr-green-bg .title:before {
-    border-top: 15px solid #BDD09F;
+    border-top: 15px solid #2ecc71;
 }
 
 body .container .section.vr-grey-bg, body .container-fluid .section.vr-grey-bg {
@@ -623,7 +623,7 @@ body .container .section.vr-grey-bg, body .container-fluid .section.vr-grey-bg {
 }
 
 body .container .section.vr-dark-bg, body .container-fluid .section.vr-dark-bg {
-    background-color: #BDD09F;
+    background-color: #2ecc71;
 }
 
 body .container .section.vr-dark-bg h2, body .container-fluid .section.vr-dark-bg h2 {
@@ -685,7 +685,7 @@ body .container h2:before {
     width: 80px;
     top: 42px;
     left: 15px;
-    border-bottom: 4px solid #BDD09F;
+    border-bottom: 4px solid #2ecc71;
 }
 
 body .container .crsl-text h2 {
@@ -721,7 +721,7 @@ body .container .section .faqs--wrapper .faqs .question, body .container-fluid .
 }
 
 body .container .section .faqs--wrapper:nth-child(6n+1) .faqs, body .container-fluid .section .faqs--wrapper:nth-child(6n+1) .faqs {
-    background-color: #BDD09F;
+    background-color: #2ecc71;
 }
 
 body .container .section .faqs--wrapper:nth-child(6n+2) .faqs, body .container-fluid .section .faqs--wrapper:nth-child(6n+2) .faqs {
@@ -729,7 +729,7 @@ body .container .section .faqs--wrapper:nth-child(6n+2) .faqs, body .container-f
 }
 
 body .container .section .faqs--wrapper:nth-child(6n+3) .faqs, body .container-fluid .section .faqs--wrapper:nth-child(6n+3) .faqs {
-    background-color: #BDD09F;
+    background-color: #2ecc71;
 }
 
 body .container .section .faqs--wrapper:nth-child(6n+4) .faqs, body .container-fluid .section .faqs--wrapper:nth-child(6n+4) .faqs {
@@ -737,7 +737,7 @@ body .container .section .faqs--wrapper:nth-child(6n+4) .faqs, body .container-f
 }
 
 body .container .section .faqs--wrapper:nth-child(6n+5) .faqs, body .container-fluid .section .faqs--wrapper:nth-child(6n+5) .faqs {
-    background-color: #BDD09F;
+    background-color: #2ecc71;
 }
 
 body .container .section .faqs--wrapper:nth-child(6n+6) .faqs, body .container-fluid .section .faqs--wrapper:nth-child(6n+6) .faqs {
@@ -768,7 +768,7 @@ body .container .section .carousel-indicators li, body .container-fluid .section
 }
 
 body .container .section .carousel-indicators li.active, body .container-fluid .section .carousel-indicators li.active {
-    background-color: #BDD09F;
+    background-color: #2ecc71;
 }
 
 body .container .section .slide, body .container-fluid .section .slide {
@@ -790,7 +790,7 @@ body .container .section .why-choose-us .why-choose-us--icon, body .container-fl
 }
 
 body .container .section .why-choose-us .why-choose-us--icon i, body .container-fluid .section .why-choose-us .why-choose-us--icon i {
-    background-color: #BDD09F;
+    background-color: #2ecc71;
     width: 80px;
     height: 80px;
     border-radius: 50%;
@@ -864,7 +864,7 @@ body .container .section form .form-control, body .container-fluid .section form
 }
 
 body .container .section form .form-control:focus, body .container-fluid .section form .form-control:focus {
-    border: 2px solid #BDD09F;
+    border: 2px solid #2ecc71;
     box-shadow: none;
 }
 
@@ -874,7 +874,7 @@ body .container .section form .info-button, body .container-fluid .section form 
     bottom: 0;
     height: 44px;
     padding: 3px 9px 0px;
-    background-color: #BDD09F;
+    background-color: #2ecc71;
     border: none;
     border-radius: 0 5px 5px 0;
 }
@@ -937,7 +937,7 @@ body .container .team-quotation .quotation-image--wrapper div, body .container-f
 body .container .team-quotation .quotation, body .container-fluid .team-quotation .quotation {
     position: relative;
     padding: 15px 15px 15px 5px;
-    background-color: #BDD09F;
+    background-color: #2ecc71;
     color: #fff;
 }
 
@@ -949,7 +949,7 @@ body .container .team-quotation .quotation:before, body .container-fluid .team-q
     width: 47px;
     height: 100%;
     transform: skew(-10deg);
-    background: #BDD09F;
+    background: #2ecc71;
 }
 
 body .container .team-quotation .quotation span, body .container-fluid .team-quotation .quotation span {
@@ -1012,8 +1012,8 @@ body .button.skip-to-content {
 }
 
 body .button.button--secondary {
-    border: 2px solid #BDD09F;
-    background-color: #BDD09F;
+    border: 2px solid #2ecc71;
+    background-color: #2ecc71;
     color: #563232;
     padding: 8px 15px;
 }
@@ -1025,7 +1025,7 @@ body .tile {
 }
 
 body .container .section .tile a, body .container-fluid .section .tile a {
-    color: #BDD09F;
+    color: #2ecc71;
     text-decoration: none;
 }
 
@@ -1052,7 +1052,7 @@ body .tile .tile-title {
 }
 
 body .tile .tile-title .tile-title--wrapper {
-    background-color: #BDD09F;
+    background-color: #2ecc71;
     padding: 15px;
     height: 100%;
 }
@@ -1085,12 +1085,12 @@ body .tile .tile-contents--wrapper.row .overlay {
 body .tile .tile-title .tile-tag {
     text-align: right;
     top: 0;
-    background-color: #BDD09F;
+    background-color: #2ecc71;
     padding: 5px 15px;
 }
 
 body .tile .tile-title.my-tours {
-    color: #BDD09F;
+    color: #2ecc71;
     background-color: transparent;
     position: relative;
     margin-left: 0;
@@ -1098,9 +1098,9 @@ body .tile .tile-title.my-tours {
 }
 
 body .tile .tile-title.my-tours .tile-tag {
-    color: #BDD09F;
+    color: #2ecc71;
     font-size: 22px;
-    border-bottom: 2px solid #BDD09F;
+    border-bottom: 2px solid #2ecc71;
     margin-bottom: 20px;
     padding: 0 0 10px 0;
     background-color: transparent;
@@ -1134,7 +1134,7 @@ body .tile .tile-title.my-tours p {
 
 body .tile .tile-title.why-choose-us p {
     width: 100%;
-    color: #BDD09F;
+    color: #2ecc71;
     display: block;
     margin-left: 0;
     text-align: left;
@@ -1142,7 +1142,7 @@ body .tile .tile-title.why-choose-us p {
 }
 
 body .tile .tile-title.why-choose-us p.quotation {
-    color: #BDD09F;
+    color: #2ecc71;
 }
 
 body .tile .tile-title.why-choose-us p .quotation-author {
@@ -1187,7 +1187,7 @@ body .tile .accommodation-info {
 }
 
 body .tile.accommodation h3 {
-    background-color: #BDD09F;
+    background-color: #2ecc71;
     position: absolute;
     bottom: 15px;
     padding: 15px;
@@ -1203,7 +1203,7 @@ body .tile.accommodation h3:after {
     width: 15px;
     height: 100%;
     transform: skew(-10deg);
-    background: #BDD09F;
+    background: #2ecc71;
 }
 
 body .wrapsize-hotels, body .wrapsize-itinerary, body .wrapsize-tickets {
@@ -1236,7 +1236,7 @@ body footer img.footer-logo {
 
 body footer .container {
     color: #fff;
-    border-top: 4px solid #BDD09F;
+    border-top: 4px solid #2ecc71;
 }
 
 body footer .container .section .form-inline {
@@ -1274,7 +1274,7 @@ body footer .container .section .footer-social {
 }
 
 body footer .container .section .footer-social .social-icons i {
-    color: #BDD09F;
+    color: #2ecc71;
 }
 
 body footer .container .section .footer-social p {
@@ -1350,7 +1350,7 @@ body .owl-carousel .owl-dots {
 }
 
 body .owl-carousel .owl-dots .owl-dot {
-    background-color: #BDD09F;
+    background-color: #2ecc71;
     opacity: 0.5;
     height: 20px;
     width: 20px;
@@ -1403,11 +1403,11 @@ body .error-message {
 
 body .error-h1 {
     font-size: 100px;
-    color: #BDD09F;
+    color: #2ecc71;
 }
 
 body .error-h2 {
-    color: #BDD09F;
+    color: #2ecc71;
 }
 
 body .error-message .button {
@@ -1509,12 +1509,12 @@ body .container .looking-for {
 
 .carousel-arrow i {
     cursor: pointer;
-    color: #BDD09F;
+    color: #2ecc71;
     font-size: 24px;
 }
 
 .carousel-arrow i:hover {
-    color: #39B001;
+    color: #27ae60;
     cursor: pointer;
 }
 
@@ -1535,7 +1535,7 @@ body .container .looking-for {
 }
 
 .local-area-wrapper .circle-icon {
-    border: 4px solid #BDD09F;
+    border: 4px solid #2ecc71;
     border-radius: 50%;
     height: 100px;
     width: 100px;
@@ -1548,7 +1548,7 @@ body .container .looking-for {
 
 .local-area-wrapper .circle-icon i {
     font-size: 30px;
-    color: #BDD09F;
+    color: #2ecc71;
 }
 
 .local-area-wrapper .icon-location {
@@ -1560,7 +1560,7 @@ body .container .looking-for {
 .local-area-wrapper .icon-title {
     text-align: center;
     font-size: 24px;
-    color: #BDD09F;
+    color: #2ecc71;
 }
 
 /* Image Enlarge Button */
@@ -1643,7 +1643,7 @@ body .container .looking-for {
     z-index: 10;
     top: 50%;
     font-size: 24px;
-    color: #BDD09F;
+    color: #2ecc71;
 }
 
 .full-screen-gallery i.fa-arrow-left {
@@ -1656,7 +1656,7 @@ body .container .looking-for {
 
 .full-screen-gallery i.fa-arrow-left:hover,
 .full-screen-gallery i.fa-arrow-right:hover {
-    color: #39B001;
+    color: #27ae60;
     cursor: pointer;
 }
 
@@ -2042,7 +2042,7 @@ body .container .looking-for {
         width: calc(100% + 2px);
         left: -1px;
         top: 100%;
-        background-color: #BDD09F;
+        background-color: #2ecc71;
         padding: 0;
     }
 
@@ -2145,7 +2145,7 @@ body .container .looking-for {
     }
 
     body .container .team-quotation .quotation-image--wrapper {
-        background-color: #BDD09F;
+        background-color: #2ecc71;
         padding-top: 15px;
     }
 
