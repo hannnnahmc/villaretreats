@@ -1568,6 +1568,10 @@ body .container .looking-for {
     display: none;
 }
 
+.image-overlay > div {
+    max-height: 270px;
+}
+
 .image-gallery > div:hover > .image-overlay {
     display: block;
     position: absolute;
