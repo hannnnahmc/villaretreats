@@ -1568,7 +1568,7 @@ body .container .looking-for {
     display: none;
 }
 
-.image-overlay > div {
+.image-gallery > div {
     max-height: 270px;
 }
 
