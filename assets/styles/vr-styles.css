@@ -1578,7 +1578,7 @@ body .container .looking-for {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.image-gallery > div:hover > .image-overlay i {
+.image-gallery > div:hover > .image-overlay span {
     position: absolute;
     z-index: 1;
     top: 10px;
