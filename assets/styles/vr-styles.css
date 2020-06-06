@@ -1569,7 +1569,8 @@ body .container .looking-for {
 }
 
 .image-gallery > div {
-    max-height: 270px;
+    max-height: 275px;
+    overflow: hidden;
 }
 
 .image-gallery > div:hover > .image-overlay {
