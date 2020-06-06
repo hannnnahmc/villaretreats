@@ -1583,8 +1583,12 @@ body .container .looking-for {
     z-index: 1;
     top: 10px;
     right: 10px;
-    font-size: 24px;
+    font-size: 20px;
     color: #fff;
+}
+
+.image-gallery > div:hover > .image-overlay i {
+    padding-left: 5px;
 }
 
 .image-gallery > div:hover > .image-overlay i:hover {
