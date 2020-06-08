@@ -150,9 +150,10 @@
     $('.full-screen-gallery').hide();
 
     var fullScreenGallery = $('.full-screen-gallery .gallery-images');
-    var imgFullScreenId = fullScreenGallery.find('img.active').attr('id');
+    
     var fullScreenPrev = $('.full-screen-gallery i.fa-arrow-left');
     fullScreenPrev.click(function() {
+        var imgFullScreenId = fullScreenGallery.find('img.active').attr('id');
         fullScreenGallery.find('img#' + imgFullScreenId).removeClass('active');
 
         if (fullScreenGallery.find('img#' + imgFullScreenId).prev().length != 0) {
@@ -166,6 +167,7 @@
 
     var fullScreenNext = $('.full-screen-gallery i.fa-arrow-right');
     fullScreenNext.click(function() {
+        var imgFullScreenId = fullScreenGallery.find('img.active').attr('id');
         fullScreenGallery.find('img#' + imgFullScreenId).removeClass('active');
 
         if (fullScreenGallery.find('img#' + imgFullScreenId).next().length != 0) {
