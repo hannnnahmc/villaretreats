@@ -149,18 +149,32 @@
 
     $('.full-screen-gallery').hide();
 
+    var fullScreenGallery = $('.full-screen-gallery .gallery-images');
+    var imgFullScreenId = fullScreenGallery.find('img.active').attr('id');
     var fullScreenPrev = $('.full-screen-gallery i.fa-arrow-left');
     fullScreenPrev.click(function() {
-        var fullScreenGallery = $('.full-screen-gallery .gallery-images');
-        var imgFullScreenId = fullScreenGallery.find('img.active').attr('id');
         fullScreenGallery.find('img#' + imgFullScreenId).removeClass('active');
-            if (fullScreenGallery.find('img#' + imgFullScreenId).prev().length != 0) {
-                fullScreenGallery.find('img#' + imgFullScreenId).prev().attr('class', 'active');
-            }
-            else {
-                fullScreenGallery.find('img').nextAll().last().attr('class', 'active');
-                fullScreenGallery.find('img').nextAll().last().prependTo('.full-screen-gallery .gallery-images');
-            }
+
+        if (fullScreenGallery.find('img#' + imgFullScreenId).prev().length != 0) {
+            fullScreenGallery.find('img#' + imgFullScreenId).prev().attr('class', 'active');
+        }
+        else {
+            fullScreenGallery.find('img').nextAll().last().attr('class', 'active');
+            fullScreenGallery.find('img').nextAll().last().prependTo('.full-screen-gallery .gallery-images');
+        }
+    });
+
+    var fullScreenNext = $('.full-screen-gallery i.fa-arrow-left');
+    fullScreenNext.click(function() {
+        fullScreenGallery.find('img#' + imgFullScreenId).removeClass('active');
+
+        if (fullScreenGallery.find('img#' + imgFullScreenId).next().length != 0) {
+            fullScreenGallery.find('img#' + imgFullScreenId).next().attr('class', 'active');
+        }
+        else {
+            fullScreenGallery.find('img').prevAll().last().attr('class', 'active');
+            fullScreenGallery.find('img').prevAll().last().appendTo('.full-screen-gallery .gallery-images');
+        }
     });
 });
 
