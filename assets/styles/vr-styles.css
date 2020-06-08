@@ -1670,7 +1670,8 @@ body .container .looking-for {
 }
 
 .col-middle {
-    transform: translateY(50%);
+    display: inline-flex;
+    align-items: flex-end;
 }
 
 @media all and (transform-3d), (-webkit-transform-3d) {
