@@ -151,14 +151,15 @@
 
     var fullScreenPrev = $('.full-screen-gallery i.fa-arrow-left');
     fullScreenPrev.click(function() {
-        var imgFullScreenId = $('.full-screen-gallery').find('img.active').attr('id');
-            $('.full-screen-gallery').find('img#' + imgFullScreenId).removeClass('active');
-            if ($('.full-screen-gallery').find('img#' + imgFullScreenId).prev().length != 0) {
-                $('.full-screen-gallery').find('img#' + imgFullScreenId).prev().attr('class', 'active');
+        var fullScreenGallery = $('.full-screen-gallery .gallery-images');
+        var imgFullScreenId = fullScreenGallery.find('img.active').attr('id');
+        fullScreenGallery.find('img#' + imgFullScreenId).removeClass('active');
+            if (fullScreenGallery.find('img#' + imgFullScreenId).prev().length != 0) {
+                fullScreenGallery.find('img#' + imgFullScreenId).prev().attr('class', 'active');
             }
             else {
-                $('.full-screen-gallery').find('img').nextAll().last().attr('class', 'active');
-                $('.full-screen-gallery').find('img').nextAll().last().prependTo('.full-screen-gallery');
+                fullScreenGallery.find('img').nextAll().last().attr('class', 'active');
+                fullScreenGallery.find('img').nextAll().last().prependTo('.full-screen-gallery .gallery-images');
             }
     });
 });
