@@ -150,12 +150,8 @@
     $('.full-screen-gallery').hide();
 });
 
-function imageModal(src) {
-    $('body').find('.image').attr('src', src);
-}
-
 function enlargeImage(imgClick) {
-    var currId = imgClick.parent().prev().attr('id');
+    var currId = imgClick.parent().parent().prev().attr('id');
     console.log(currId);
 
     var allItems = $('.full-screen-gallery').find('img');
