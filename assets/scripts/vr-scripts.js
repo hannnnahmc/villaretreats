@@ -164,7 +164,7 @@
         }
     });
 
-    var fullScreenNext = $('.full-screen-gallery i.fa-arrow-left');
+    var fullScreenNext = $('.full-screen-gallery i.fa-arrow-right');
     fullScreenNext.click(function() {
         fullScreenGallery.find('img#' + imgFullScreenId).removeClass('active');
 
