@@ -1488,6 +1488,10 @@ body .container .looking-for {
     margin-bottom: 40px;
 }
 
+body .container .huts-wrapper.no-gutters h2:before {
+    left: 0;
+}
+
 figcaption {
     color: #666;
     font-style: italic;
