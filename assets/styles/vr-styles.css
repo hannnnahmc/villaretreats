@@ -1488,6 +1488,12 @@ body .container .looking-for {
     margin-bottom: 40px;
 }
 
+figcaption {
+    color: #666;
+    font-style: italic;
+    font-size: 14px;
+}
+
 /* Carousel */
 .image-carousel {
     margin-bottom: 40px;
