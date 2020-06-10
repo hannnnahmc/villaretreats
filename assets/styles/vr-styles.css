@@ -1476,7 +1476,7 @@ body .container .looking-for {
     background-color: rgba(46,204,113, 0.5);
     padding: 40px;
     margin-left: -80px;
-    border-left: 40px solid;
+    border-left: 40px solid rgba(46,204,113, 0.5);
     max-width: calc(58.333333% + 80px);
     flex: 0 0 calc(58.333333% + 80px);
 }
