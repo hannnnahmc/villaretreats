@@ -1509,7 +1509,7 @@ figcaption {
 }
 
 .image-carousel .crsl-img.bg-to-main {
-    padding: 25px 0;
+    margin: 25px 0;
     opacity: 0.6;
 }
 
@@ -1546,25 +1546,45 @@ figcaption {
 }
 
 /* Carousel Images */
-.image-carousel .crsl-img[data-img="bungalow"] {
-    background-image: url("../../Images/IMG_20190930_175752.jpg");
+.image-carousel .crsl-img {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
+}
+.image-carousel .crsl-img[data-img="bungalow"] {
+    background-image: url("../../Images/IMG_20190930_175752.jpg");
 }
 
 .image-carousel .crsl-img[data-img="villa"] {
     background-image: url("../../Images/IMG_20190930_175816.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
 }
 
 .image-carousel .crsl-img[data-img="huts"] {
     background-image: url("../../Images/IMG_20190930_175839.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
+}
+
+.image-carousel .crsl-img[data-img="lounge"] {
+    background-image: url("../../Images/IMG_20190930_175839.jpg");
+}
+
+.image-carousel .crsl-img[data-img="kitchen"] {
+    background-image: url("../../Images/IMG_20190930_175752.jpg");
+}
+
+.image-carousel .crsl-img[data-img="bedroomone"] {
+    background-image: url("../../Images/IMG_20190930_180342.jpg");
+}
+
+.image-carousel .crsl-img[data-img="bedroomtwo"] {
+    background-image: url("../../Images/IMG_20190930_180900.jpg");
+}
+
+.image-carousel .crsl-img[data-img="bedroomthree"] {
+    background-image: url("../../Images/IMG_20190930_180937.jpg");
+}
+
+.image-carousel .crsl-img[data-img="bathroom"] {
+    background-image: url("../../Images/IMG_20190930_180232.jpg");
 }
 
 /* Local Area */
