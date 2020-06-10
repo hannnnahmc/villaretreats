@@ -697,7 +697,8 @@ body .container .crsl-text h2:before {
 }
 
 body .container .section p, body .container-fluid .section p,
-body .container p {
+body .container p,
+body .container li {
     color: #666;
 }
 
@@ -1426,15 +1427,6 @@ body .error-message .button:hover {
 body .container .looking-for {
     background-color: #efefef;
     padding: 40px;
-}
-
-/* Features List */
-.features-list li {
-    list-style: none;
-}
-
-.features-list i {
-    color: #816C5B;
 }
 
 /* Green Villa Section */
