@@ -24,7 +24,7 @@
             </button>
             <div class="pull-left">
                 <a href="/villaretreats" class="navbar-logo">
-                    <img src="Images/Villa Retreats Logo.png" alt="Villa Retreats" />
+                    <img src="Images/Villa Retreats Logo_White.png.png" alt="Villa Retreats" />
                 </a>
             </div>
             <div itemscope itemtype="http://schema.org/SiteNavigationElement" class="pull-right collapse navbar-collapse" id="mobileNav">
@@ -154,59 +154,114 @@
             </div>
         </div>
 
-        <!-- some sort of graphic about activities to do there (walks, local events, etc) -->
-        
         <div class="container">
             <div class="row">
-                <div class="col-12 text-center">
-                    <h2 class="brand-font">Photo Gallery</h2>
-                </div>
-            </div>
-            <div class="row image-gallery">
-                <div class="col-12 col-md-3 mb-2">
-                    <img src="Images/IMG_20190930_175752.jpg" alt="Image" />
-                </div>
-                <div class="col-12 col-md-3 mb-2">
-                    <img src="Images/IMG_20190930_175752.jpg" alt="Image" />
-                </div>
-                <div class="col-12 col-md-3 mb-2">
-                    <img src="Images/IMG_20190930_175752.jpg" alt="Image" />
-                </div>
-                <div class="col-12 col-md-3 mb-2">
-                    <img src="Images/IMG_20190930_175752.jpg" alt="Image" />
-                </div>
-                <div class="col-12 col-md-3">
-                    <img src="Images/IMG_20190930_175752.jpg" alt="Image" />
-                </div>
-                <div class="col-12 col-md-3">
-                    <img src="Images/IMG_20190930_175752.jpg" alt="Image" />
-                </div>
-                <div class="col-12 col-md-3">
-                    <img src="Images/IMG_20190930_175752.jpg" alt="Image" />
-                </div>
-                <div class="col-12 col-md-3">
-                    <img src="Images/IMG_20190930_175752.jpg" alt="Image" />
-                </div>
-
-                <div class="col-12 text-center my-5">
-                    <a class="button" href="#">Check availability <i class="fas fa-angle-right"></i></a>
+                <div class="col-12">
+                    <img src="Images/ideal-day-banner.png" alt="An Ideal Day"/>
                 </div>
             </div>
         </div>
         
-        <!-- Footer -->
-        <footer class="footer text-center" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="brand-font d-inline-block">Photo Gallery</h2>
+                    <div class="photo-gallery-buttons">
+                        <!--<a href="#" class="expand-all button">Expand gallery to fullscreen<i class="fas fa-expand"></i></a>-->
+                    </div>
+                </div>
+            </div>
+            <div class="row image-gallery no-gutters">
+                <div class="col-12 col-md-4">
+                    <img src="Images/IMG_20190930_175752.jpg" alt="Image" />
+                    <div class="image-overlay">
+                        <span>Expand <i class="fas fa-expand" onclick="enlargeImage($(this))"></i></span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="Images/IMG_20190930_175816.jpg" alt="Image" />
+                    <div class="image-overlay">
+                        <span>Expand <i class="fas fa-expand" onclick="enlargeImage($(this))"></i></span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="Images/IMG_20190930_175839.jpg" alt="Image" />
+                    <div class="image-overlay">
+                        <span>Expand <i class="fas fa-expand" onclick="enlargeImage($(this))"></i></span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="Images/IMG_20190930_180015.jpg" alt="Image" />
+                    <div class="image-overlay">
+                        <span>Expand <i class="fas fa-expand" onclick="enlargeImage($(this))"></i></span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="Images/IMG_20190930_180232.jpg" alt="Image" />
+                    <div class="image-overlay">
+                        <span>Expand <i class="fas fa-expand" onclick="enlargeImage($(this))"></i></span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="Images/IMG_20190930_180329.jpg" alt="Image" />
+                    <div class="image-overlay">
+                        <span>Expand <i class="fas fa-expand" onclick="enlargeImage($(this))"></i></span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="Images/IMG_20190930_180346.jpg" alt="Image" />
+                    <div class="image-overlay">
+                        <span>Expand <i class="fas fa-expand" onclick="enlargeImage($(this))"></i></span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="Images/IMG_20190930_180504.jpg" alt="Image" />
+                    <div class="image-overlay">
+                        <span>Expand <i class="fas fa-expand" onclick="enlargeImage($(this))"></i></span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="Images/IMG_20190930_180937.jpg" alt="Image" />
+                    <div class="image-overlay">
+                        <span>Expand <i class="fas fa-expand" onclick="enlargeImage($(this))"></i></span>
+                    </div>
+                </div>
+
+                <div class="col-12 text-center my-5">
+                    <a class="button" href="#">Check availability <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="full-screen-gallery">
+            <i class="fas fa-arrow-left"></i>
+            <div class="gallery-images">
+                <img src="Images/IMG_20190930_175752.jpg" alt="Image" />
+                <img src="Images/IMG_20190930_175816.jpg" alt="Image" />
+                <img src="Images/IMG_20190930_175839.jpg" alt="Image" />
+                <img src="Images/IMG_20190930_180015.jpg" alt="Image" />
+                <img src="Images/IMG_20190930_180232.jpg" alt="Image" />
+                <img src="Images/IMG_20190930_180329.jpg" alt="Image" />
+                <img src="Images/IMG_20190930_180346.jpg" alt="Image" />
+                <img src="Images/IMG_20190930_180504.jpg" alt="Image" />
+                <img src="Images/IMG_20190930_180937.jpg" alt="Image" />
+            </div>
+            <i class="fas fa-arrow-right"></i>
+            <i class="fas fa-times" onclick="closeModal()"></i>
+        </div>
+        
+        <footer class="footer" id="footer">
             <div class="container">
                 <div class="row section">
-                    <div class="col-12 text-center">
+                    <div class="col-12">
                         <div class="footer-social">
+                            <img src="Images/Villa Retreats Logo.png" class="footer-logo"/>
+                            
                             <div class="social-icons">
                                 <a href="#"><i class="fab fa-facebook-f pr-3"></i></a>
                                 <a href="#"><i class="fab fa-twitter pr-3"></i></a>
                                 <a href="#"><i class="fab fa-instagram"></i></a>
                             </div>
-
-                            <img src="Images/Villa Retreats Logo_White.png" class="footer-logo"/>
                         </div>
                     </div>
                 </div>
