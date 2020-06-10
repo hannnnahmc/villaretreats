@@ -1546,21 +1546,21 @@ figcaption {
 }
 
 /* Carousel Images */
-.image-carousel img[data-img="bungalow"] {
+.image-carousel .crsl-img[data-img="bungalow"] {
     background-image: url("Images/IMG_20190930_175752.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
 
-.image-carousel img[data-img="villa"] {
+.image-carousel .crsl-img[data-img="villa"] {
     background-image: url("Images/IMG_20190930_175816.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
 
-.image-carousel img[data-img="huts"] {
+.image-carousel .crsl-img[data-img="huts"] {
     background-image: url("Images/IMG_20190930_175839.jpg");
     background-size: cover;
     background-repeat: no-repeat;
