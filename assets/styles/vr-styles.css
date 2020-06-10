@@ -1484,6 +1484,10 @@ body .container .looking-for {
     flex: 0 0 calc(58.333333% + 80px);
 }
 
+.huts-wrapper.no-gutters .col-middle p {
+    margin-bottom: 40px;
+}
+
 /* Carousel */
 .image-carousel {
     margin-bottom: 40px;
