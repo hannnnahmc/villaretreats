@@ -1545,6 +1545,14 @@ figcaption {
     display: none;
 }
 
+/* Carousel Images */
+.image-carousel img[data-img="bungalow"] {
+    background-image: url("Images/IMG_20190930_175752.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
 /* Local Area */
 .local-area-wrapper {
     background-color: rgba(102,102,102, 0.05);
