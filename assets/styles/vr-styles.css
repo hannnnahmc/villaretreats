@@ -1471,12 +1471,15 @@ body .container .looking-for {
     margin-bottom: 60px;
 }
 
-.huts-wrapper .col-middle {
+.huts-wrapper.no-gutters > .col-md-5 {
+    z-index: 1;
+}
+
+.huts-wrapper.no-gutters .col-middle {
     margin-top: 100px;
-    background-color: rgba(46,204,113, 0.5);
-    padding: 40px;
+    background-color: rgba(46,204,113, 0.3);
+    padding: 40px 40px 40px 120px;
     margin-left: -80px;
-    border-left: 40px solid rgba(46,204,113, 0.5);
     max-width: calc(58.333333% + 80px);
     flex: 0 0 calc(58.333333% + 80px);
 }
