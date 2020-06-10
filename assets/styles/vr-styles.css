@@ -1471,6 +1471,16 @@ body .container .looking-for {
     margin-bottom: 60px;
 }
 
+.huts-wrapper .col-middle {
+    margin-top: 100px;
+    background-color: rgba(46,204,113, 0.5);
+    padding: 40px;
+    margin-left: -80px;
+    border-left: 40px solid;
+    max-width: calc(58.333333% + 80px);
+    flex: 0 0 calc(58.333333% + 80px);
+}
+
 /* Carousel */
 .image-carousel {
     margin-bottom: 40px;
@@ -1667,11 +1677,6 @@ body .container .looking-for {
 .full-screen-gallery i.fa-arrow-right:hover {
     color: #27ae60;
     cursor: pointer;
-}
-
-.col-middle {
-    display: inline-flex;
-    align-items: flex-end;
 }
 
 @media all and (transform-3d), (-webkit-transform-3d) {
