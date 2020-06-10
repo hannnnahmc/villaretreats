@@ -1547,21 +1547,21 @@ figcaption {
 
 /* Carousel Images */
 .image-carousel .crsl-img[data-img="bungalow"] {
-    background-image: url("../../../Images/IMG_20190930_175752.jpg");
+    background-image: url("../../Images/IMG_20190930_175752.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
 
 .image-carousel .crsl-img[data-img="villa"] {
-    background-image: url("../../../Images/IMG_20190930_175816.jpg");
+    background-image: url("../../Images/IMG_20190930_175816.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
 
 .image-carousel .crsl-img[data-img="huts"] {
-    background-image: url("../../../Images/IMG_20190930_175839.jpg");
+    background-image: url("../../Images/IMG_20190930_175839.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
