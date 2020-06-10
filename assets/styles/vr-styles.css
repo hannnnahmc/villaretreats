@@ -1464,11 +1464,11 @@ body .container .looking-for {
 
 /* Huts */
 .huts-wrapper {
-    margin-top: 40px;
+    margin-top: 60px;
 }
 
 .huts-wrapper:last-child {
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 /* Carousel */
