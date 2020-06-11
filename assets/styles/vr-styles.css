@@ -1882,8 +1882,20 @@ figcaption {
     }
 
     body footer .container .section .footer-social {
+        display: block;
         text-align: center;
-        margin-top: 40px;
+        margin-top: 0;
+    }
+
+    body footer img.footer-logo {
+        display: block;
+        margin: 0 auto;
+    }
+
+    body footer .container .section .footer-social .social-icons {
+        display: block;
+        margin-top: 10px;
+        text-align: center;
     }
 
     body footer .container .section .footer-links {
