@@ -37,7 +37,7 @@
 
             if (i <= 2) {
                 if (i == 1) {
-                    carouselImgs[i].setAttribute("class", "crsl-img active main col-6");
+                    carouselImgs[i].setAttribute("class", "crsl-img active main col-md-6 col-12");
                 }
                 else if (i == 0 || i == 2) {
                     carouselImgs[i].setAttribute("class", "crsl-img active bg-to-main col-3");
