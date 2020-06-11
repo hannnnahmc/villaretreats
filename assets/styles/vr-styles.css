@@ -2025,7 +2025,8 @@ figcaption {
         left: 48%;
     }
 
-    .image-carousel .crsl-img.bg-to-main {
+    .image-carousel .crsl-img.bg-to-main,
+    .text-carousel .crsl-text.visibility-hidden {
         display: none;
     }
 }
