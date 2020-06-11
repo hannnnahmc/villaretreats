@@ -6,7 +6,7 @@
     }
 
     if (isMobile == true) {
-        $('.navbar-toggle').click(function() {
+        $('.navbar-toggler').click(function() {
             if ($(this).hasClass('collapsed')) {
                 $(this).removeClass('collapsed');
                 $(this).find('i').removeClass('fa-bars').addClass('fa-times');
