@@ -56,7 +56,7 @@
             idTextArr.push(id);
 
             if (i == 1) {
-                carouselTexts[i].setAttribute("class", "crsl-text active col-6");
+                carouselTexts[i].setAttribute("class", "crsl-text active col-12 col-md-6");
             }
             else if (i == 0 || i == 2) {
                 carouselTexts[i].setAttribute("class", "crsl-text visibility-hidden col-3");
@@ -75,12 +75,12 @@
             $('.text-carousel').find('.crsl-text#' + activeImgId).prev().attr("class", "crsl-text hidden");
             $('.text-carousel').find('.crsl-text#' + activeImgId).attr('class', 'crsl-text visibility-hidden col-3');
             if ($('.image-carousel').find('.crsl-img#' + activeImgId).next().length != 0) {
-                $('.image-carousel').find('.crsl-img#' + activeImgId).next().attr("class", "crsl-img active main col-6");
-                $('.text-carousel').find('.crsl-text#' + activeImgId).next().attr('class', 'crsl-text active col-6');
+                $('.image-carousel').find('.crsl-img#' + activeImgId).next().attr("class", "crsl-img active main col-12 col-md-6");
+                $('.text-carousel').find('.crsl-text#' + activeImgId).next().attr('class', 'crsl-text active col-12 col-md-6');
             }
             else {
-                $('.image-carousel').find('.crsl-img').prevAll().last().attr("class", "crsl-img active main col-6");
-                $('.text-carousel').find('.crsl-text').prevAll().last().attr('class', 'crsl-text active col-6');
+                $('.image-carousel').find('.crsl-img').prevAll().last().attr("class", "crsl-img active main col-12 col-md-6");
+                $('.text-carousel').find('.crsl-text').prevAll().last().attr('class', 'crsl-text active col-12 col-md-6');
             }
 
             if ($('.image-carousel').find('.crsl-img#' + activeImgId).next().next().length != 0) {
@@ -105,12 +105,12 @@
             $('.text-carousel').find('.crsl-text#' + activeImgId).next().attr("class", "crsl-text hidden");
             $('.text-carousel').find('.crsl-text#' + activeImgId).attr('class', 'crsl-text visibility-hidden col-3');
             if ($('.image-carousel').find('.crsl-img#' + activeImgId).prev().length != 0) {
-                $('.image-carousel').find('.crsl-img#' + activeImgId).prev().attr("class", "crsl-img active main col-6");
-                $('.text-carousel').find('.crsl-text#' + activeImgId).prev().attr('class', 'crsl-text active col-6');
+                $('.image-carousel').find('.crsl-img#' + activeImgId).prev().attr("class", "crsl-img active main col-12 col-md-6");
+                $('.text-carousel').find('.crsl-text#' + activeImgId).prev().attr('class', 'crsl-text active col-12 col-md-6');
             }
             else {
-                $('.image-carousel').find('.crsl-img').nextAll().last().attr("class", "crsl-img active main col-6");
-                $('.text-carousel').find('.crsl-text').nextAll().last().attr('class', 'crsl-text active col-6');
+                $('.image-carousel').find('.crsl-img').nextAll().last().attr("class", "crsl-img active main col-12 col-md-6");
+                $('.text-carousel').find('.crsl-text').nextAll().last().attr('class', 'crsl-text active col-12 col-md-6');
             }
 
             if ($('.image-carousel').find('.crsl-img#' + activeImgId).prev().prev().length != 0) {

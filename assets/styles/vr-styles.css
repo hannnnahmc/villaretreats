@@ -2012,6 +2012,10 @@ figcaption {
         bottom: 60px;
         left: 48%;
     }
+
+    .image-carousel .crsl-img.bg-to-main {
+        display: none;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -2107,12 +2111,11 @@ figcaption {
     }
 
     body nav.navbar .pull-right {
-        text-align: right;
         position: absolute;
-        width: calc(100% + 2px);
+        width: calc(100% + 1px);
         left: -1px;
         top: 100%;
-        background-color: #2ecc71;
+        background-color: #666;
         padding: 0;
     }
 
