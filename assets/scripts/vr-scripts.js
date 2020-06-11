@@ -5,24 +5,18 @@
         isMobile = true;
     }
 
-    if (isMobile !== true) {
-        $('ul.navbar-nav li.dropdown').hover(function () {
-            $(this).addClass('open');
-            $(this).find('.dropdown-menu').addClass('show');
-        }, function () {
-            $(this).removeClass('open');
-            $(this).find('.dropdown-menu').removeClass('show');
-        });
-    }
-    else {
-        $('ul.navbar-nav > li.dropdown').click(function (e) {
-            if (e.delegateTarget.className === "nav-item dropdown mega-dropdown") {
-                e.preventDefault();
-                $(this).toggleClass('show');
-                $(this).find('.nav-link').addClass('dropdown-toggle');
-                $(this).find('.nav-link').attr('data-toggle', 'dropdown');
+    if (isMobile == true) {
+        $('.navbar-toggle').click(function() {
+            if ($(this).hasClass('collapsed')) {
+                $(this).removeClass('collapsed');
+                $(this).find('i').removeClass('fa-bars').addClass('fa-times');
+                $('#mobileNav').addClass('show');
             }
-
+            else {
+                $(this).addClass('collapsed');
+                $(this).find('i').removeClass('fa-times').addClass('fa-bars');
+                $('#mobileNav').removeClass('show');
+            }
         });
     }
 
