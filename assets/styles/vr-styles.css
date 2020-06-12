@@ -1804,7 +1804,7 @@ figcaption {
     }
 
     body .banner-image {
-        height: calc(100vh - 50px);
+        height: 100vh;
     }
 
     body .banner-image img {
@@ -2028,6 +2028,10 @@ figcaption {
     .image-carousel .crsl-img.bg-to-main,
     .text-carousel .crsl-text.visibility-hidden {
         display: none;
+    }
+
+    .image-carousel .crsl-img.main {
+        height: 250px;
     }
 }
 
