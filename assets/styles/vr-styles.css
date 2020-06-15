@@ -685,7 +685,6 @@ body .container h2:before {
     position: absolute;
     width: 80px;
     bottom: -10px;
-    left: 15px;
     border-bottom: 4px solid #2ecc71;
 }
 
