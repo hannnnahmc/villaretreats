@@ -194,9 +194,10 @@ function closeModal() {
 function localAreaItem(currItem) {
     var itemId = currItem.attr('id');
     var allItems = $('.local-area-information');
+    allItems.removeClass('active');
     for (var item = 0; item < allItems.length; item++) {
         if (allItems[item].getAttribute("id") == itemId) {
-            allItems[item].setAttribute("class", "active");
+            allItems[item].setAttribute("class", "local-area-information active");
         }
     }
 }
