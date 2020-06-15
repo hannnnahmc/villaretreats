@@ -1595,7 +1595,6 @@ figcaption {
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
 }
 
 .local-area-wrapper:after {
@@ -1635,6 +1634,7 @@ figcaption {
 .local-area-wrapper .icon-title {
     font-size: 24px;
     color: #666;
+    margin-left: 20px;
 }
 
 /* Image Enlarge Button */
