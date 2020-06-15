@@ -1641,19 +1641,19 @@ figcaption {
     top: 40px;
 }
 
-.local-area-information:nth-child(1):before {
+.local-area-information:nth-child(2):before {
     top: 180px;
 }
 
-.local-area-information#3:before {
+.local-area-information:nth-child(3):before {
     top: 320px;
 }
 
-.local-area-information#4:before {
+.local-area-information:nth-child(4):before {
     top: 460px;
 }
 
-.local-area-information#5:before {
+.local-area-information:nth-child(5):before {
     top: 600px;
 }
 
