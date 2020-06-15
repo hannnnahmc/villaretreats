@@ -193,11 +193,11 @@ function closeModal() {
 
 function localAreaItem(item) {
     var itemId = item.attr('id');
-    var allItems = $('.local-area-information').find('img');
-    for (var img = 0; img < allItems.length; img++) {
+    var allItems = $('.local-area-information');
+    for (var item = 0; item < allItems.length; item++) {
         allItems.removeClass("active");
-        if (allItems[img].getAttribute("id") == itemId) {
-            allItems[img].setAttribute("class", "active");
+        if (allItems[item].getAttribute("id") == itemId) {
+            allItems[item].setAttribute("class", "active");
         }
     }
 }
