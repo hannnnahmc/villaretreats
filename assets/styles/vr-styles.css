@@ -1597,19 +1597,6 @@ figcaption {
     align-items: center;
 }
 
-.local-area-wrapper:after {
-    content: "";
-    width: 0px;
-    height: 0px;
-    border-top: 30px solid transparent;
-    border-bottom: 30px solid transparent;
-    border-right: 30px solid #f7f7f7;
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
 .local-area-wrapper .circle-icon {
     border: 3px solid #2ecc71;
     border-radius: 50%;
@@ -1635,6 +1622,24 @@ figcaption {
     font-size: 24px;
     color: #666;
     margin-left: 20px;
+}
+
+.local-area-information {
+    border: 3px solid #2ECC71;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.local-area-information:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid #2ECC71;
+    position: absolute;
+    left: -5px;
+    top: 40px;
 }
 
 /* Image Enlarge Button */
