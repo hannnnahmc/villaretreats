@@ -191,11 +191,10 @@ function closeModal() {
     $('.full-screen-gallery').find('img.active').removeClass('active');
 }
 
-function localAreaItem(item) {
-    var itemId = item.attr('id');
+function localAreaItem(currItem) {
+    var itemId = currItem.attr('id');
     var allItems = $('.local-area-information');
     for (var item = 0; item < allItems.length; item++) {
-        allItems.removeClass("active");
         if (allItems[item].getAttribute("id") == itemId) {
             allItems[item].setAttribute("class", "active");
         }
