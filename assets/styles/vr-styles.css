@@ -1641,6 +1641,22 @@ figcaption {
     top: 40px;
 }
 
+.local-area-information#2:before {
+    top: 180px;
+}
+
+.local-area-information#3:before {
+    top: 180px;
+}
+
+.local-area-information#4:before {
+    top: 320px;
+}
+
+.local-area-information#5:before {
+    top: 460px;
+}
+
 .local-area-information .icon-location {
     text-align: center;
     color: #666;
