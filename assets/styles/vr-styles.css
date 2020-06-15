@@ -1612,12 +1612,6 @@ figcaption {
     color: #2ecc71;
 }
 
-.local-area-wrapper .icon-location {
-    text-align: center;
-    color: #666;
-    margin: 20px 0;
-}
-
 .local-area-wrapper .icon-title {
     font-size: 24px;
     color: #666;
@@ -1640,6 +1634,12 @@ figcaption {
     position: absolute;
     left: -5px;
     top: 40px;
+}
+
+.local-area-information .icon-location {
+    text-align: center;
+    color: #666;
+    margin: 20px 0;
 }
 
 /* Image Enlarge Button */

@@ -176,8 +176,6 @@
 
 function enlargeImage(imgClick) {
     var currId = imgClick.parent().parent().prev().attr('id');
-    console.log(currId);
-
     var allItems = $('.full-screen-gallery').find('img');
     for (var img = 0; img < allItems.length; img++) {
         if (allItems[img].getAttribute("id") == currId) {
@@ -191,4 +189,15 @@ function enlargeImage(imgClick) {
 function closeModal() {
     $('.full-screen-gallery').hide();
     $('.full-screen-gallery').find('img.active').removeClass('active');
+}
+
+function localAreaItem(item) {
+    var itemId = item.attr('id');
+    var allItems = $('.local-area-information').find('img');
+    for (var img = 0; img < allItems.length; img++) {
+        allItems.removeClass("active");
+        if (allItems[img].getAttribute("id") == itemId) {
+            allItems[img].setAttribute("class", "active");
+        }
+    }
 }
