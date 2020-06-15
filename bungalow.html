@@ -139,83 +139,69 @@
             </div>
         </div>
 
-        <!-- some sort of graphic about activities to do there (walks, local events, etc) -->
         <div class="container">
             <div class="row section">
                 <div class="container">
                     <div class="row">
-                        <div class="col-12 col-md-3">
-                            <div class="local-area-wrapper">
-                                <div class="circle-icon">
-                                    <i class="fas fa-leaf"></i>
+                        <div class="col-12 col-md-6">
+                            <div class="row no-gutters">
+                                <div class="col-12 mb-4">
+                                    <div class="local-area-wrapper" id="1" onclick="localAreaItem($(this))">
+                                        <div class="circle-icon"><i class="fas fa-leaf"></i></div>
+                                        <div class="icon-title brand-font">Walk or cycle around the local area</div>
+                                    </div>
                                 </div>
-                                <div class="icon-location"><i class="fas fa-map-marker-alt"></i> On your doorstep</div>
-                                <div class="icon-title brand-font">Walk around the local area</div>
+                                <div class="col-12 mb-4">
+                                    <div class="local-area-wrapper" id="2" onclick="localAreaItem($(this))">
+                                        <div class="circle-icon"><i class="fas fa-horse"></i></div>
+                                        <div class="icon-title brand-font">Visit the races!</div>
+                                    </div>
+                                </div>
+                                <div class="col-12 mb-4">
+                                    <div class="local-area-wrapper" id="3" onclick="localAreaItem($(this))">
+                                        <div class="circle-icon"><i class="fas fa-city"></i></div>
+                                        <div class="icon-title brand-font">Visit our local towns and cities</div>
+                                    </div>
+                                </div>
+                                <div class="col-12 mb-4">
+                                    <div class="local-area-wrapper" id="4" onclick="localAreaItem($(this))">
+                                        <div class="circle-icon"><i class="fas fa-hiking"></i></div>
+                                        <div class="icon-title brand-font">Hike the highest mountain in Wales</div>
+                                    </div>
+                                </div>
+                                <div class="col-12 mb-4">
+                                    <div class="local-area-wrapper" id="5" onclick="localAreaItem($(this))">
+                                        <div class="circle-icon"><i class="fas fa-building"></i></div>
+                                        <div class="icon-title brand-font">Visit the British Ironwork Centre</div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-12 col-md-3">
-                            <div class="local-area-wrapper">
-                                <div class="circle-icon">
-                                    <i class="fas fa-bicycle"></i>
-                                </div>
+                        <div class="col-12 col-md-6">
+                            <div class="local-area-information active" id="1">
+                                <img src="Images/walking-placeholder.png" alt="Outdoors"/>
                                 <div class="icon-location"><i class="fas fa-map-marker-alt"></i> On your doorstep</div>
-                                <div class="icon-title brand-font">Cycle for miles</div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a vulputate turpis, euismod tristique velit. Morbi suscipit tincidunt turpis at condimentum. Donec ut interdum neque. Suspendisse malesuada turpis sed molestie sollicitudin. Quisque ante tortor, dignissim in commodo vel, cursus nec dolor. Vivamus fringilla aliquet sem ac fringilla. Nulla rhoncus leo eget odio sodales aliquam. Vestibulum cursus rhoncus iaculis. Curabitur eu sollicitudin ante, eu volutpat magna. Mauris tincidunt risus id sem dignissim vestibulum. Donec tempor rhoncus varius. Donec a tincidunt tortor. Integer eu tortor quis risus porttitor pulvinar. Aliquam vel est sit amet nulla aliquam elementum et nec quam. In hac habitasse platea dictumst.</p>
                             </div>
-                        </div>
-                        <div class="col-12 col-md-3">
-                            <div class="local-area-wrapper">
-                                <div class="circle-icon">
-                                    <i class="fas fa-horse"></i>
-                                </div>
+                            <div class="local-area-information" id="2">
+                                <img src="Images/walking-placeholder.png" alt="Outdoors"/>
                                 <div class="icon-location"><i class="fas fa-map-marker-alt"></i> Chester or Bangor-on-dee</div>
-                                <div class="icon-title brand-font">Visit the races!</div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a vulputate turpis, euismod tristique velit. Morbi suscipit tincidunt turpis at condimentum. Donec ut interdum neque. Suspendisse malesuada turpis sed molestie sollicitudin. Quisque ante tortor, dignissim in commodo vel, cursus nec dolor. Vivamus fringilla aliquet sem ac fringilla. Nulla rhoncus leo eget odio sodales aliquam. Vestibulum cursus rhoncus iaculis. Curabitur eu sollicitudin ante, eu volutpat magna. Mauris tincidunt risus id sem dignissim vestibulum. Donec tempor rhoncus varius. Donec a tincidunt tortor. Integer eu tortor quis risus porttitor pulvinar. Aliquam vel est sit amet nulla aliquam elementum et nec quam. In hac habitasse platea dictumst.</p>
                             </div>
-                        </div>
-                        <div class="col-12 col-md-3">
-                            <div class="local-area-wrapper">
-                                <div class="circle-icon">
-                                    <i class="fas fa-city"></i>
-                                </div>
+                            <div class="local-area-information" id="3">
+                                <img src="Images/walking-placeholder.png" alt="Outdoors"/>
                                 <div class="icon-location"><i class="fas fa-map-marker-alt"></i> Chester or Llangollen</div>
-                                <div class="icon-title brand-font">Visit our local towns and cities</div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a vulputate turpis, euismod tristique velit. Morbi suscipit tincidunt turpis at condimentum. Donec ut interdum neque. Suspendisse malesuada turpis sed molestie sollicitudin. Quisque ante tortor, dignissim in commodo vel, cursus nec dolor. Vivamus fringilla aliquet sem ac fringilla. Nulla rhoncus leo eget odio sodales aliquam. Vestibulum cursus rhoncus iaculis. Curabitur eu sollicitudin ante, eu volutpat magna. Mauris tincidunt risus id sem dignissim vestibulum. Donec tempor rhoncus varius. Donec a tincidunt tortor. Integer eu tortor quis risus porttitor pulvinar. Aliquam vel est sit amet nulla aliquam elementum et nec quam. In hac habitasse platea dictumst.</p>
                             </div>
-                        </div>
-                    </div>
-                    <div class="row pt-4">
-                        <div class="col-12 col-md-3">
-                            <div class="local-area-wrapper">
-                                <div class="circle-icon">
-                                    <i class="fas fa-hiking"></i>
-                                </div>
+                            <div class="local-area-information" id="4">
+                                <img src="Images/walking-placeholder.png" alt="Outdoors"/>
                                 <div class="icon-location"><i class="fas fa-map-marker-alt"></i> Snowdonia</div>
-                                <div class="icon-title brand-font">Hike the highest mountain in Wales</div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a vulputate turpis, euismod tristique velit. Morbi suscipit tincidunt turpis at condimentum. Donec ut interdum neque. Suspendisse malesuada turpis sed molestie sollicitudin. Quisque ante tortor, dignissim in commodo vel, cursus nec dolor. Vivamus fringilla aliquet sem ac fringilla. Nulla rhoncus leo eget odio sodales aliquam. Vestibulum cursus rhoncus iaculis. Curabitur eu sollicitudin ante, eu volutpat magna. Mauris tincidunt risus id sem dignissim vestibulum. Donec tempor rhoncus varius. Donec a tincidunt tortor. Integer eu tortor quis risus porttitor pulvinar. Aliquam vel est sit amet nulla aliquam elementum et nec quam. In hac habitasse platea dictumst.</p>
                             </div>
-                        </div>
-                        <div class="col-12 col-md-3">
-                            <div class="local-area-wrapper">
-                                <div class="circle-icon">
-                                    <i class="fas fa-fish"></i>
-                                </div>
-                                <div class="icon-location"><i class="fas fa-map-marker-alt"></i> Not sure</div>
-                                <div class="icon-title brand-font">Check out our local fishing spots</div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-3">
-                            <div class="local-area-wrapper">
-                                <div class="circle-icon">
-                                    <i class="fas fa-dove"></i>
-                                </div>
-                                <div class="icon-location"><i class="fas fa-map-marker-alt"></i> On your doorstep</div>
-                                <div class="icon-title brand-font">Birds of Prey</div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-3">
-                            <div class="local-area-wrapper">
-                                <div class="circle-icon">
-                                    <i class="fas fa-building"></i>
-                                </div>
+                            <div class="local-area-information" id="5">
+                                <img src="Images/walking-placeholder.png" alt="Outdoors"/>
                                 <div class="icon-location"><i class="fas fa-map-marker-alt"></i> Oswestry</div>
-                                <div class="icon-title brand-font">Visit the British Ironwork Centre</div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a vulputate turpis, euismod tristique velit. Morbi suscipit tincidunt turpis at condimentum. Donec ut interdum neque. Suspendisse malesuada turpis sed molestie sollicitudin. Quisque ante tortor, dignissim in commodo vel, cursus nec dolor. Vivamus fringilla aliquet sem ac fringilla. Nulla rhoncus leo eget odio sodales aliquam. Vestibulum cursus rhoncus iaculis. Curabitur eu sollicitudin ante, eu volutpat magna. Mauris tincidunt risus id sem dignissim vestibulum. Donec tempor rhoncus varius. Donec a tincidunt tortor. Integer eu tortor quis risus porttitor pulvinar. Aliquam vel est sit amet nulla aliquam elementum et nec quam. In hac habitasse platea dictumst.</p>
                             </div>
                         </div>
                     </div>
