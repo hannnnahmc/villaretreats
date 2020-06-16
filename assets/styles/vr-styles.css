@@ -2118,8 +2118,10 @@ figcaption {
     .la-modal-close {
         position: fixed;
         z-index: 1;
-        top: 80px;
+        top: 70px;
         right: 10px;
+        color: #fff;
+        font-size: 24px;
     }
 
     .local-area-information:before {
