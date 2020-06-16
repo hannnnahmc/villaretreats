@@ -222,7 +222,7 @@ function galleryPage() {
 function galleryPageClick() {
     var pageWrap = $('.gallery-page');
     var activePage = $('.gallery-page').parent().find('.active');
-    var nextPageIdString = $('.gallery-page').parent().find('.active').attr('data-page') + 1;
+    var nextPageIdString = $('.gallery-page').parent().find('.active').attr('data-page');
     var nextPageId = parseInt(nextPageIdString) + 1;
     var nextPageItem = "";
 
