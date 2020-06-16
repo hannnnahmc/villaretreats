@@ -232,8 +232,8 @@ function galleryPageClick() {
     }
 
     for (var page = 0; page < pageWrap.length; page++) {
-        if (pageWrap[page].attr('data-page') === nextPageId) {
-            nextPageItem = page;
+        if (pageWrap[page].attributes[1].value === nextPageId) {
+            nextPageItem = pageWrap[page];
             nextPageItem.addClass('active');
         }
     }
