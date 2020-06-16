@@ -228,7 +228,7 @@ function galleryPageClick() {
 
     activePage.removeClass('active');
 
-    if (nextPageId < pageWrap.length) {
+    if (nextPageId == pageWrap.length) {
         $('.photo-gallery-buttons i.fa-arrow-right').addClass('disabled');
     }
 
