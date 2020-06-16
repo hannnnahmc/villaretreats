@@ -211,7 +211,7 @@ function galleryPage() {
     if (pageWrap.length >= 1) {
         $('.photo-gallery-buttons i').show();
         
-        var activePage = pageWrap.hasClass('active');
+        var activePage = $('.gallery-page').parent().find('.active');
         var activePageId = activePage.attr('data-page');
         if (activePageId === 1) {
             $('.photo-gallery-buttons i.fa-arrow-left').prop('disabled', 'true');
@@ -221,8 +221,8 @@ function galleryPage() {
 
 function galleryPageClick() {
     var pageWrap = $('.gallery-page');
-    var activePage = pageWrap.hasClass('active');
-    var nextPageId = activePage.attr('data-page') + 1;
+    var activePage = $('.gallery-page').parent().find('.active');
+    var nextPageId = "";
     var nextPageItem = "";
 
     activePage.removeClass('active');
