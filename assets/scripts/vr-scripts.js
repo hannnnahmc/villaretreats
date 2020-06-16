@@ -194,6 +194,11 @@ function closeModal() {
     $('.full-screen-gallery').find('img.active').removeClass('active');
 }
 
+function closeLAModal() {
+    $('.local-area-information.active').hide();
+    $('.local-area-information').parent().find('.active').removeClass('active');
+}
+
 function localAreaItem(currItem) {
     var itemId = currItem.attr('id');
     var allItems = $('.local-area-information');

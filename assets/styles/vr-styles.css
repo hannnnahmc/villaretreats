@@ -2094,6 +2094,33 @@ figcaption {
     .image-gallery > div:hover > .image-overlay {
         display: none;
     }
+
+    .local-area-opacity {
+        position: fixed;
+        top: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 100%;
+        width: 100%;
+    }
+
+    .local-area-information.active {
+        display: block;
+        height: 500px;
+        overflow: scroll;
+        position: fixed;
+        top: 50%;
+        left: 0;
+        transform: translateY(-45%);
+        z-index: 1;
+        background-color: #fff;
+    }
+
+    .la-modal-close {
+        position: fixed;
+        z-index: 1;
+        top: 80px;
+        right: 10px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
