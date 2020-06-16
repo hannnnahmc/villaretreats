@@ -1711,7 +1711,7 @@ figcaption {
 }
 
 .image-gallery .gallery-page.active {
-    display: block;
+    display: flex;
 }
 
 .image-gallery .gallery-page {
