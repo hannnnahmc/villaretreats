@@ -199,6 +199,7 @@ function closeModal() {
 
 function closeLAModal() {
     $('.local-area-information').parent().find('.active').removeClass('active');
+    $('.local-area-information').parent().removeClass('local-area-opacity');
     $('.la-modal-close').hide();
 }
 
