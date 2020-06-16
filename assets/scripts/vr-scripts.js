@@ -231,6 +231,7 @@ function galleryPageClickNext() {
     if (nextPageId == pageWrap.length) {
         $('.photo-gallery-buttons i.fa-arrow-right').addClass('disabled');
         $('.photo-gallery-buttons i.fa-arrow-right').removeAttr('onclick');
+        $('.photo-gallery-buttons i.fa-arrow-left').removeClass('disabled');
         $('.photo-gallery-buttons i.fa-arrow-left').attr('onclick', 'galleryPageClickPrev()');
     }
 
@@ -254,6 +255,7 @@ function galleryPageClickPrev() {
     if (prevPageId == 1) {
         $('.photo-gallery-buttons i.fa-arrow-left').addClass('disabled');
         $('.photo-gallery-buttons i.fa-arrow-left').removeAttr('onclick');
+        $('.photo-gallery-buttons i.fa-arrow-right').removeClass('disabled');
         $('.photo-gallery-buttons i.fa-arrow-right').attr('onclick', 'galleryPageClickNext()');
     }
 

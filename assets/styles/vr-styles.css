@@ -1719,7 +1719,7 @@ figcaption {
     display: none;
 }
 
-.photo-gallery-buttons i.fa-arrow-left.disabled {
+.photo-gallery-buttons i.disabled {
     color: #f7f7f7;
 }
 
