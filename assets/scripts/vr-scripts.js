@@ -173,6 +173,7 @@
         }
     });
 
+    $('.photo-gallery-buttons i').hide();
     galleryPage();
 });
 
