@@ -235,7 +235,7 @@ function galleryPageClick() {
     for (var page = 0; page < pageWrap.length; page++) {
         if (pageWrap[page].attributes[1].value == nextPageId) {
             nextPageItem = pageWrap[page];
-            nextPageItem.addClass('active');
+            nextPageItem.setAttribute('class', 'active');
         }
     }
 }
