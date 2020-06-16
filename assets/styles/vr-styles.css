@@ -1705,6 +1705,11 @@ figcaption {
     float: right;
 }
 
+.photo-gallery-buttons i {
+    font-size: 24px;
+    margin-left: 20px;
+}
+
 /* Full Screen Gallery */
 .full-screen-gallery {
     position: fixed;

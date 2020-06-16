@@ -172,6 +172,8 @@
             fullScreenGallery.find('img').prevAll().last().appendTo('.full-screen-gallery .gallery-images');
         }
     });
+
+    galleryPage();
 });
 
 function enlargeImage(imgClick) {
@@ -198,6 +200,40 @@ function localAreaItem(currItem) {
     for (var item = 0; item < allItems.length; item++) {
         if (allItems[item].getAttribute("id") == itemId) {
             allItems[item].setAttribute("class", "local-area-information active");
+        }
+    }
+}
+
+function galleryPage() {
+    var pageWrap = $('.gallery-page');
+
+    if (pageWrap > 1) {
+        $('.photo-gallery-buttons i').show();
+        
+        var activePage = pageWrap.hasClass('active');
+        var activePageId = activePage.attr('data-page');
+        if (activePageId === 1) {
+            $('.photo-gallery-buttons i.fa-arrow-left').prop('disabled', 'true');
+        }
+    }
+}
+
+function galleryPageClick() {
+    var pageWrap = $('.gallery-page');
+    var activePage = pageWrap.hasClass('active');
+    var nextPageId = activePage.attr('data-page') + 1;
+    var nextPageItem = "";
+
+    activePage.removeClass('active');
+
+    if (nextPageId < pageWrap.length) {
+        $('.photo-gallery-buttons i.fa-arrow-right').prop('disabled', 'true');
+    }
+
+    for (var page = 0; page < pageWrap.length; page++) {
+        if (page.attr('data-page') === nextPageId) {
+            nextPageItem = page;
+            nextPageItem.addClass('active');
         }
     }
 }
