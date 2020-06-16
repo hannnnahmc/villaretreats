@@ -223,7 +223,7 @@ function galleryPageClick() {
     var pageWrap = $('.gallery-page');
     var activePage = $('.gallery-page').parent().find('.active');
     var nextPageIdString = $('.gallery-page').parent().find('.active').attr('data-page') + 1;
-    var nextPageId = parseInt(nextPageIdString);
+    var nextPageId = parseInt(nextPageIdString) + 1;
     var nextPageItem = "";
 
     activePage.removeClass('active');
