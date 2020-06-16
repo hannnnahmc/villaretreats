@@ -18,6 +18,8 @@
                 $('#mobileNav').removeClass('show');
             }
         });
+
+        $('.local-area-information').removeClass('active');
     }
 
     var currWidth = $(window).width();
@@ -173,6 +175,7 @@
         }
     });
 
+    $('.la-modal-close').hide();
     $('.photo-gallery-buttons i').hide();
     galleryPage();
 });
@@ -206,6 +209,11 @@ function localAreaItem(currItem) {
     for (var item = 0; item < allItems.length; item++) {
         if (allItems[item].getAttribute("id") == itemId) {
             allItems[item].setAttribute("class", "local-area-information active");
+
+            if (isMobile) {
+                $('.local-area-information').parent().addClass('local-area-opacity');
+                $('.la-modal-close').show();
+            }
         }
     }
 }
