@@ -1710,6 +1710,14 @@ figcaption {
     margin-left: 20px;
 }
 
+.image-gallery .gallery-page.active {
+    display: block;
+}
+
+.image-gallery .gallery-page {
+    display: none;
+}
+
 /* Full Screen Gallery */
 .full-screen-gallery {
     position: fixed;
