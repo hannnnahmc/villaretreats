@@ -203,6 +203,11 @@ function closeLAModal() {
 }
 
 function localAreaItem(currItem) {
+    var isMobile = "";
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+        isMobile = true;
+    }
+
     var itemId = currItem.attr('id');
     var allItems = $('.local-area-information');
     allItems.removeClass('active');
