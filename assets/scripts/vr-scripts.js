@@ -228,11 +228,11 @@ function galleryPageClick() {
     activePage.removeClass('active');
 
     if (nextPageId < pageWrap.length) {
-        $('.photo-gallery-buttons i.fa-arrow-right').prop('disabled', 'true');
+        $('.photo-gallery-buttons i.fa-arrow-right').addClass('disabled');
     }
 
     for (var page = 0; page < pageWrap.length; page++) {
-        if (page.attr('data-page') === nextPageId) {
+        if (pageWrap[page].attr('data-page') === nextPageId) {
             nextPageItem = page;
             nextPageItem.addClass('active');
         }
