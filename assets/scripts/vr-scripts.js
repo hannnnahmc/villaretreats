@@ -213,7 +213,7 @@ function galleryPage() {
         
         var activePage = $('.gallery-page').parent().find('.active');
         var activePageId = activePage.attr('data-page');
-        if (activePageId === 1) {
+        if (activePageId == 1) {
             $('.photo-gallery-buttons i.fa-arrow-left').prop('disabled', 'true');
         }
     }
