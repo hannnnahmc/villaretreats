@@ -1708,6 +1708,7 @@ figcaption {
 .photo-gallery-buttons i {
     font-size: 24px;
     margin-left: 20px;
+    color: #2ECC71;
 }
 
 .image-gallery .gallery-page.active {
@@ -1716,6 +1717,10 @@ figcaption {
 
 .image-gallery .gallery-page {
     display: none;
+}
+
+.photo-gallery-buttons i.fa-arrow-left.disabled {
+    color: #f7f7f7;
 }
 
 /* Full Screen Gallery */
