@@ -210,7 +210,7 @@ function localAreaItem(currItem) {
         if (allItems[item].getAttribute("id") == itemId) {
             allItems[item].setAttribute("class", "local-area-information active");
 
-            if (isMobile) {
+            if (isMobile == true) {
                 $('.local-area-information').parent().addClass('local-area-opacity');
                 $('.la-modal-close').show();
             }
