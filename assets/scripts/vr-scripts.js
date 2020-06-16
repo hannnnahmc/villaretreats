@@ -198,8 +198,8 @@ function closeModal() {
 }
 
 function closeLAModal() {
-    $('.local-area-information.active').hide();
     $('.local-area-information').parent().find('.active').removeClass('active');
+    $('.la-modal-close').hide();
 }
 
 function localAreaItem(currItem) {
