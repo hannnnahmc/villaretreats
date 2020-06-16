@@ -1673,7 +1673,7 @@ figcaption {
     overflow: hidden;
 }
 
-.image-gallery > div:hover > .image-overlay {
+.image-gallery .gallery-page > div:hover > .image-overlay {
     display: block;
     position: absolute;
     top: 0;
@@ -1683,7 +1683,7 @@ figcaption {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.image-gallery > div:hover > .image-overlay span {
+.image-gallery .gallery-page > div:hover > .image-overlay span {
     position: absolute;
     z-index: 1;
     top: 10px;
@@ -1692,11 +1692,11 @@ figcaption {
     color: #fff;
 }
 
-.image-gallery > div:hover > .image-overlay i {
+.image-gallery .gallery-page > div:hover > .image-overlay i {
     padding-left: 5px;
 }
 
-.image-gallery > div:hover > .image-overlay i:hover {
+.image-gallery .gallery-page > div:hover > .image-overlay i:hover {
     cursor: pointer;
 }
 
