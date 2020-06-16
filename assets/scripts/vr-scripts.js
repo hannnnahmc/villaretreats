@@ -208,7 +208,7 @@ function localAreaItem(currItem) {
 function galleryPage() {
     var pageWrap = $('.gallery-page');
 
-    if (pageWrap >= 1) {
+    if (pageWrap.length >= 1) {
         $('.photo-gallery-buttons i').show();
         
         var activePage = pageWrap.hasClass('active');
